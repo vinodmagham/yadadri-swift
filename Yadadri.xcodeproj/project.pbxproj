@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		712DAF201D07DF1400376DEB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 712DAF1F1D07DF1400376DEB /* .gitignore */; };
 		7150236F1D06E91900E06006 /* TempleTimingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7150236E1D06E91900E06006 /* TempleTimingsViewController.swift */; };
 		715023711D06FA4500E06006 /* TempleTimingsCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715023701D06FA4500E06006 /* TempleTimingsCustomCell.swift */; };
 		715023731D07095E00E06006 /* SevasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715023721D07095E00E06006 /* SevasViewController.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		712DAF1F1D07DF1400376DEB /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		7150236E1D06E91900E06006 /* TempleTimingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempleTimingsViewController.swift; sourceTree = "<group>"; };
 		715023701D06FA4500E06006 /* TempleTimingsCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempleTimingsCustomCell.swift; sourceTree = "<group>"; };
 		715023721D07095E00E06006 /* SevasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SevasViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 		71F8F00C1D06A280009B2A80 = {
 			isa = PBXGroup;
 			children = (
+				712DAF1F1D07DF1400376DEB /* .gitignore */,
 				71F8F0171D06A281009B2A80 /* Yadadri */,
 				71F8F02C1D06A283009B2A80 /* YadadriTests */,
 				71F8F0371D06A283009B2A80 /* YadadriUITests */,
@@ -256,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				712DAF201D07DF1400376DEB /* .gitignore in Resources */,
 				71F8F0231D06A282009B2A80 /* LaunchScreen.storyboard in Resources */,
 				71F8F0201D06A282009B2A80 /* Assets.xcassets in Resources */,
 				71F8F01E1D06A282009B2A80 /* Main.storyboard in Resources */,
