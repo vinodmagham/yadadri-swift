@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BKe-oX-lMy">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BKe-oX-lMy">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -276,7 +276,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="40" id="dSx-HT-Af3" customClass="SevasCustomCell" customModule="Yadadri" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="dSx-HT-Af3" customClass="SevasCustomCell" customModule="Yadadri" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="600" height="40"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dSx-HT-Af3" id="0Zo-gJ-hbB">
@@ -292,7 +292,7 @@
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wvs-9y-e1f" userLabel="SevasLbl">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="1" translatesAutoresizingMaskIntoConstraints="NO" id="Wvs-9y-e1f" userLabel="SevasLbl">
                                                     <rect key="frame" x="8" y="9" width="384" height="18"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -349,12 +349,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ggb-oD-lss">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ggb-oD-lss">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="Ggb-oD-lss" secondAttribute="height" multiplier="1:1" id="2Mg-Xk-wmv"/>
-                                </constraints>
                                 <string key="text">PRASADAM COUNTERS : Prasadam Counters are located near to the main temple entrance
 
 Timings : 7-00 AM  TO    9-00 PM 
@@ -372,16 +369,16 @@ S.NO.          NAME OF THE PRASADAM         COST
  
 Distribution of free prasadam:
 100 Kgs of Pulihora prasadam and 6 Kgs of Daddojanam prasadam is being distributed freely to the piligrims in the temple daily.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Ggb-oD-lss" firstAttribute="leading" secondItem="Xdm-Vi-LDe" secondAttribute="leading" id="5fp-d5-KLh"/>
-                            <constraint firstItem="Ggb-oD-lss" firstAttribute="bottom" secondItem="3cT-tM-HAU" secondAttribute="top" id="D1x-K0-HVH"/>
-                            <constraint firstAttribute="trailing" secondItem="Ggb-oD-lss" secondAttribute="trailing" id="mWh-kH-mpP"/>
-                            <constraint firstItem="Ggb-oD-lss" firstAttribute="top" secondItem="Xdm-Vi-LDe" secondAttribute="top" id="zlc-1b-JZ6"/>
+                            <constraint firstAttribute="trailing" secondItem="Ggb-oD-lss" secondAttribute="trailing" id="71X-cT-q84"/>
+                            <constraint firstItem="Ggb-oD-lss" firstAttribute="top" secondItem="Xdm-Vi-LDe" secondAttribute="top" id="L4V-cD-R46"/>
+                            <constraint firstItem="Ggb-oD-lss" firstAttribute="leading" secondItem="Xdm-Vi-LDe" secondAttribute="leading" id="d7f-7k-JiM"/>
+                            <constraint firstItem="Ggb-oD-lss" firstAttribute="bottom" secondItem="3cT-tM-HAU" secondAttribute="top" id="rQL-Dr-ACO"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -452,6 +449,80 @@ Distribution of free prasadam:
             </objects>
             <point key="canvasLocation" x="2950" y="1068"/>
         </scene>
+        <!--Videos View Controller-->
+        <scene sceneID="Wde-o8-Xfs">
+            <objects>
+                <viewController storyboardIdentifier="VideosViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="FzP-jk-Nly" customClass="VideosViewController" customModule="Yadadri" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="V2J-WW-ayQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="PRC-Tm-VQI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="T8X-GN-2oz">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="153" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="X0e-5l-VVz">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideosTableViewCell" rowHeight="153" id="6hK-Go-78i" customClass="VideosTableViewCell" customModule="Yadadri" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="153"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6hK-Go-78i" id="5Wj-ym-zji">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="152"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ud0-Yk-Pig">
+                                                    <rect key="frame" x="8" y="12" width="240" height="128"/>
+                                                    <color key="backgroundColor" red="1" green="0.58842806208053688" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="240" id="uIO-FL-YbG"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldr-Z8-XUL">
+                                                    <rect key="frame" x="265" y="65" width="306" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="ud0-Yk-Pig" firstAttribute="leading" secondItem="5Wj-ym-zji" secondAttribute="leadingMargin" id="18p-2B-8LP"/>
+                                                <constraint firstItem="ud0-Yk-Pig" firstAttribute="top" secondItem="5Wj-ym-zji" secondAttribute="topMargin" constant="4" id="4yf-Ph-sVI"/>
+                                                <constraint firstItem="ldr-Z8-XUL" firstAttribute="leading" secondItem="ud0-Yk-Pig" secondAttribute="trailing" constant="17" id="EtL-5p-wCi"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="ldr-Z8-XUL" secondAttribute="trailing" constant="21" id="NRS-KG-A18"/>
+                                                <constraint firstItem="ud0-Yk-Pig" firstAttribute="centerY" secondItem="5Wj-ym-zji" secondAttribute="centerY" id="TXC-r7-Trj"/>
+                                                <constraint firstItem="ud0-Yk-Pig" firstAttribute="centerY" secondItem="ldr-Z8-XUL" secondAttribute="centerY" id="qX6-8J-nsl"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="videoThumbImage" destination="ud0-Yk-Pig" id="uUK-aY-T0Z"/>
+                                            <outlet property="videoTitleLabel" destination="ldr-Z8-XUL" id="cmp-LX-N9w"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="FzP-jk-Nly" id="Ls9-3j-Rht"/>
+                                    <outlet property="delegate" destination="FzP-jk-Nly" id="VDq-ge-7no"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="X0e-5l-VVz" firstAttribute="top" secondItem="T8X-GN-2oz" secondAttribute="top" id="0bL-Kd-m7d"/>
+                            <constraint firstItem="X0e-5l-VVz" firstAttribute="bottom" secondItem="PRC-Tm-VQI" secondAttribute="top" id="9lv-T2-ToL"/>
+                            <constraint firstItem="X0e-5l-VVz" firstAttribute="leading" secondItem="T8X-GN-2oz" secondAttribute="leading" id="Pur-yR-mvh"/>
+                            <constraint firstAttribute="trailing" secondItem="X0e-5l-VVz" secondAttribute="trailing" id="zX5-VT-vVN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="videosListTable" destination="X0e-5l-VVz" id="oly-3D-S8B"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SlE-4R-QVG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3592" y="1019"/>
+        </scene>
         <!--Temple History View Controller-->
         <scene sceneID="dc6-vm-NLx">
             <objects>
@@ -464,7 +535,7 @@ Distribution of free prasadam:
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tgJ-44-EWs">
+                            <textView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tgJ-44-EWs">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="618"/>
                                 <color key="backgroundColor" red="1" green="0.95294117647058818" blue="0.8784313725490196" alpha="0.89577047413793098" colorSpace="calibratedRGB"/>
                                 <string key="text">Long ago Sri Yada Maharshi son of Sri Rushyashrunga Maharshi with the Blessings of Anjaneya Swamy had performed great penance for Lord  Narasimha Swamy (an incarnation of Lord Vishnu) in a cave on the hill currently known as Yadagirigutta. Pleased with his deep devotion, Lord Narasimha appeared before him in five different forms as Sri Jwala Narsimha, Sri Yogananda Narasimha, Sri Ugra Narasimha, Sri Gandaberunda Narasimha, and Sri Laksmi Narasimha.                                  

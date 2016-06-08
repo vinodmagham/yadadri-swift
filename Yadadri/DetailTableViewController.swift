@@ -11,7 +11,7 @@ import UIKit
 class DetailTableViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
     @IBOutlet weak var detailTable: UITableView!
-     var tableList = ["History","Temple Timings", "Archanas & Sevas", "Do's & Dont's", "Prasadas", "Songs", "Bhajanas"]
+     var tableList = ["History","Temple Timings", "Archanas & Sevas", "Do's & Dont's", "Prasadas", "Videos", "Songs"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -63,23 +63,26 @@ func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexP
         }
         else if(indexPath.row == 2){
             
-            let timingsView : SevasViewController = storyboard?.instantiateViewControllerWithIdentifier("SevasViewController") as! SevasViewController
-            self.navigationController?.pushViewController(timingsView, animated: true)
+            let sevasView : SevasViewController = storyboard?.instantiateViewControllerWithIdentifier("SevasViewController") as! SevasViewController
+            self.navigationController?.pushViewController(sevasView, animated: true)
 
             
         }
         else if(indexPath.row == 3){
-            let timingsView : DoAndDontViewController = storyboard?.instantiateViewControllerWithIdentifier("DoAndDontViewController") as! DoAndDontViewController
-            self.navigationController?.pushViewController(timingsView, animated: true)
+            let doView : DoAndDontViewController = storyboard?.instantiateViewControllerWithIdentifier("DoAndDontViewController") as! DoAndDontViewController
+            self.navigationController?.pushViewController(doView, animated: true)
             
         }
         else if(indexPath.row == 4){
             
-            let timingsView : PrasadasViewController = storyboard?.instantiateViewControllerWithIdentifier("PrasadasViewController") as! PrasadasViewController
-            self.navigationController?.pushViewController(timingsView, animated: true)
+            let prasadView : PrasadasViewController = storyboard?.instantiateViewControllerWithIdentifier("PrasadasViewController") as! PrasadasViewController
+            self.navigationController?.pushViewController(prasadView, animated: true)
             
         }
         else if(indexPath.row == 5){
+            
+            let videosView : VideosViewController = storyboard?.instantiateViewControllerWithIdentifier("VideosViewController") as! VideosViewController
+            self.navigationController?.pushViewController(videosView, animated: true)
             
         }
 

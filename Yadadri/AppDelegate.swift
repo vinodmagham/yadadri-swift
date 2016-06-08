@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,8 +18,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         UINavigationBar.appearance().barTintColor = UIColor.yellowColor()
         UINavigationBar.appearance().tintColor = UIColor.whiteColor()
-
-        // Override point for customization after application launch.
+        
+        
+        Parse.setApplicationId("e3naFGC4IebGnciUiv6EpyvO4njz353gRLLWxQYh", clientKey:"ipw7uwVKFvZJVjqjeqK3QbaH8qidMZIvRiA7hrXd")
+        
+        
+        
+        
         return true
     }
 

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 
 class ViewController: UIViewController {
 
@@ -19,6 +20,7 @@ class ViewController: UIViewController {
         detailButton.layer.cornerRadius = 5
         detailButton.layer.borderWidth = 1
         detailButton.layer.borderColor = UIColor.blackColor().CGColor
+               
     }
     @IBAction func detailsClicked(sender: AnyObject) {
     

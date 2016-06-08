@@ -52,6 +52,9 @@ class SevasViewController: UIViewController,UITableViewDelegate,UITableViewDataS
          cell.sevasLbl .text = sevas[indexPath.row]
          cell.costLbl.text = cost[indexPath.row]
         cell.selectionStyle = UITableViewCellSelectionStyle.None
+        cell.setNeedsUpdateConstraints()
+        cell.updateConstraintsIfNeeded()
+        
         
         return cell
     }

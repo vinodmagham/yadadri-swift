@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		137F6CBE529258C2FEB96194 /* Pods_Yadadri.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6D0FBFC882D446AF52055E /* Pods_Yadadri.framework */; };
+		2CA92401D94FFB6D115167A9 /* Pods_YadadriUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65055EE8D202877AAAC89AD7 /* Pods_YadadriUITests.framework */; };
+		35217F9E00077791E0B435B2 /* Pods_YadadriTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E4D632FC0BFDB3B7802D13 /* Pods_YadadriTests.framework */; };
 		712DAF201D07DF1400376DEB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 712DAF1F1D07DF1400376DEB /* .gitignore */; };
 		7150236F1D06E91900E06006 /* TempleTimingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7150236E1D06E91900E06006 /* TempleTimingsViewController.swift */; };
 		715023711D06FA4500E06006 /* TempleTimingsCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715023701D06FA4500E06006 /* TempleTimingsCustomCell.swift */; };
@@ -24,6 +27,9 @@
 		71F8F0391D06A283009B2A80 /* YadadriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8F0381D06A283009B2A80 /* YadadriUITests.swift */; };
 		71F8F0481D06C029009B2A80 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8F0471D06C029009B2A80 /* DetailTableViewController.swift */; };
 		71F8F04A1D06DBD6009B2A80 /* TempleHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8F0491D06DBD6009B2A80 /* TempleHistoryViewController.swift */; };
+		767CEA581D087BBF00B56B5E /* VideosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767CEA571D087BBF00B56B5E /* VideosTableViewCell.swift */; };
+		76F0D0651D07F04D0062B874 /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F0D0641D07F04D0062B874 /* VideosViewController.swift */; };
+		76F0D0671D08241A0062B874 /* TvConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F0D0661D08241A0062B874 /* TvConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AEB835BCB25DA00D169BB66 /* Pods-Yadadri.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yadadri.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yadadri/Pods-Yadadri.release.xcconfig"; sourceTree = "<group>"; };
+		2D7CEC19892391BEA0F7BC90 /* Pods-YadadriUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YadadriUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YadadriUITests/Pods-YadadriUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4C6D0FBFC882D446AF52055E /* Pods_Yadadri.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yadadri.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5085CBB7C034B7879124AA06 /* Pods-YadadriTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YadadriTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YadadriTests/Pods-YadadriTests.debug.xcconfig"; sourceTree = "<group>"; };
+		65055EE8D202877AAAC89AD7 /* Pods_YadadriUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YadadriUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		712DAF1F1D07DF1400376DEB /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		7150236E1D06E91900E06006 /* TempleTimingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempleTimingsViewController.swift; sourceTree = "<group>"; };
 		715023701D06FA4500E06006 /* TempleTimingsCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempleTimingsCustomCell.swift; sourceTree = "<group>"; };
@@ -67,6 +78,13 @@
 		71F8F03A1D06A283009B2A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71F8F0471D06C029009B2A80 /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
 		71F8F0491D06DBD6009B2A80 /* TempleHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempleHistoryViewController.swift; sourceTree = "<group>"; };
+		767CEA571D087BBF00B56B5E /* VideosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosTableViewCell.swift; sourceTree = "<group>"; };
+		76F0D0641D07F04D0062B874 /* VideosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosViewController.swift; sourceTree = "<group>"; };
+		76F0D0661D08241A0062B874 /* TvConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TvConstants.swift; sourceTree = "<group>"; };
+		7CBE4023E9C204E68CC3A727 /* Pods-Yadadri.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yadadri.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yadadri/Pods-Yadadri.debug.xcconfig"; sourceTree = "<group>"; };
+		7CD686FA829F73E0275FE466 /* Pods-YadadriUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YadadriUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YadadriUITests/Pods-YadadriUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		97E4D632FC0BFDB3B7802D13 /* Pods_YadadriTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YadadriTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D4A838CF791316D0B9AE98 /* Pods-YadadriTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YadadriTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YadadriTests/Pods-YadadriTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				137F6CBE529258C2FEB96194 /* Pods_Yadadri.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35217F9E00077791E0B435B2 /* Pods_YadadriTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,12 +108,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CA92401D94FFB6D115167A9 /* Pods_YadadriUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		002B5FA4C7126B8908BA43C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CBE4023E9C204E68CC3A727 /* Pods-Yadadri.debug.xcconfig */,
+				2AEB835BCB25DA00D169BB66 /* Pods-Yadadri.release.xcconfig */,
+				5085CBB7C034B7879124AA06 /* Pods-YadadriTests.debug.xcconfig */,
+				A1D4A838CF791316D0B9AE98 /* Pods-YadadriTests.release.xcconfig */,
+				7CD686FA829F73E0275FE466 /* Pods-YadadriUITests.debug.xcconfig */,
+				2D7CEC19892391BEA0F7BC90 /* Pods-YadadriUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		71F8F00C1D06A280009B2A80 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +136,8 @@
 				71F8F02C1D06A283009B2A80 /* YadadriTests */,
 				71F8F0371D06A283009B2A80 /* YadadriUITests */,
 				71F8F0161D06A280009B2A80 /* Products */,
+				002B5FA4C7126B8908BA43C2 /* Pods */,
+				EF7719CB286D57A4705692BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +165,9 @@
 				715023721D07095E00E06006 /* SevasViewController.swift */,
 				715023741D0709C200E06006 /* SevasCustomCell.swift */,
 				7150237C1D07404500E06006 /* PrasadasViewController.swift */,
+				76F0D0641D07F04D0062B874 /* VideosViewController.swift */,
+				767CEA571D087BBF00B56B5E /* VideosTableViewCell.swift */,
+				76F0D0661D08241A0062B874 /* TvConstants.swift */,
 				71F8F01C1D06A282009B2A80 /* Main.storyboard */,
 				71F8F01F1D06A282009B2A80 /* Assets.xcassets */,
 				71F8F0211D06A282009B2A80 /* LaunchScreen.storyboard */,
@@ -155,6 +194,16 @@
 			path = YadadriUITests;
 			sourceTree = "<group>";
 		};
+		EF7719CB286D57A4705692BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C6D0FBFC882D446AF52055E /* Pods_Yadadri.framework */,
+				97E4D632FC0BFDB3B7802D13 /* Pods_YadadriTests.framework */,
+				65055EE8D202877AAAC89AD7 /* Pods_YadadriUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71F8F03D1D06A283009B2A80 /* Build configuration list for PBXNativeTarget "Yadadri" */;
 			buildPhases = (
+				E7EB80D8686E4CFC04594D55 /* 📦 Check Pods Manifest.lock */,
 				71F8F0111D06A280009B2A80 /* Sources */,
 				71F8F0121D06A280009B2A80 /* Frameworks */,
 				71F8F0131D06A280009B2A80 /* Resources */,
+				4267361456B188F092734B83 /* 📦 Embed Pods Frameworks */,
+				5B26A5BF3BDFDA894763140F /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71F8F0401D06A283009B2A80 /* Build configuration list for PBXNativeTarget "YadadriTests" */;
 			buildPhases = (
+				111B31EB2B5C4861F7E05217 /* 📦 Check Pods Manifest.lock */,
 				71F8F0251D06A283009B2A80 /* Sources */,
 				71F8F0261D06A283009B2A80 /* Frameworks */,
 				71F8F0271D06A283009B2A80 /* Resources */,
+				F2F6C378028EC28B19EB0CFC /* 📦 Embed Pods Frameworks */,
+				2BA4197DB8C39DD79BFEB782 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,9 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71F8F0431D06A283009B2A80 /* Build configuration list for PBXNativeTarget "YadadriUITests" */;
 			buildPhases = (
+				A3F12D45509A9F2DCA3B0A07 /* 📦 Check Pods Manifest.lock */,
 				71F8F0301D06A283009B2A80 /* Sources */,
 				71F8F0311D06A283009B2A80 /* Frameworks */,
 				71F8F0321D06A283009B2A80 /* Resources */,
+				90220D9BAC2773196180631E /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -282,6 +339,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		111B31EB2B5C4861F7E05217 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2BA4197DB8C39DD79BFEB782 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YadadriTests/Pods-YadadriTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4267361456B188F092734B83 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yadadri/Pods-Yadadri-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B26A5BF3BDFDA894763140F /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yadadri/Pods-Yadadri-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90220D9BAC2773196180631E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YadadriUITests/Pods-YadadriUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3F12D45509A9F2DCA3B0A07 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7EB80D8686E4CFC04594D55 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2F6C378028EC28B19EB0CFC /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YadadriTests/Pods-YadadriTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		71F8F0111D06A280009B2A80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -293,9 +473,12 @@
 				71F8F04A1D06DBD6009B2A80 /* TempleHistoryViewController.swift in Sources */,
 				71F8F0481D06C029009B2A80 /* DetailTableViewController.swift in Sources */,
 				71F8F01B1D06A281009B2A80 /* ViewController.swift in Sources */,
+				76F0D0651D07F04D0062B874 /* VideosViewController.swift in Sources */,
+				767CEA581D087BBF00B56B5E /* VideosTableViewCell.swift in Sources */,
 				715023771D07285C00E06006 /* DoAndDontViewController.swift in Sources */,
 				715023711D06FA4500E06006 /* TempleTimingsCustomCell.swift in Sources */,
 				7150236F1D06E91900E06006 /* TempleTimingsViewController.swift in Sources */,
+				76F0D0671D08241A0062B874 /* TvConstants.swift in Sources */,
 				7150237B1D072BB300E06006 /* DoTableViewCell.swift in Sources */,
 				71F8F0191D06A281009B2A80 /* AppDelegate.swift in Sources */,
 			);
@@ -437,6 +620,7 @@
 		};
 		71F8F03E1D06A283009B2A80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CBE4023E9C204E68CC3A727 /* Pods-Yadadri.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Yadadri/Info.plist;
@@ -448,6 +632,7 @@
 		};
 		71F8F03F1D06A283009B2A80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AEB835BCB25DA00D169BB66 /* Pods-Yadadri.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Yadadri/Info.plist;
@@ -459,6 +644,7 @@
 		};
 		71F8F0411D06A283009B2A80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5085CBB7C034B7879124AA06 /* Pods-YadadriTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = YadadriTests/Info.plist;
@@ -471,6 +657,7 @@
 		};
 		71F8F0421D06A283009B2A80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1D4A838CF791316D0B9AE98 /* Pods-YadadriTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = YadadriTests/Info.plist;
@@ -483,6 +670,7 @@
 		};
 		71F8F0441D06A283009B2A80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CD686FA829F73E0275FE466 /* Pods-YadadriUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = YadadriUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -494,6 +682,7 @@
 		};
 		71F8F0451D06A283009B2A80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D7CEC19892391BEA0F7BC90 /* Pods-YadadriUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = YadadriUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

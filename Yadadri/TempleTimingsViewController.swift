@@ -40,14 +40,10 @@ class TempleTimingsViewController: UIViewController,UITableViewDelegate,UITableV
     func goBack() {
         self.navigationController!.popViewControllerAnimated(true)
     }
-
-        
-
     
      func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 2
     }
-
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if(section == 0){
@@ -83,7 +79,4 @@ class TempleTimingsViewController: UIViewController,UITableViewDelegate,UITableV
         
         return cell
     }
-
-        
-    
 }

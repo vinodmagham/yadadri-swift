@@ -49,7 +49,6 @@ class DoAndDontViewController: UIViewController {
         return 80.0
     }
     
-    
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if(section == 0){
             return canDo.count
@@ -82,8 +81,4 @@ class DoAndDontViewController: UIViewController {
         
         return cell
     }
-    
-
-
-
-}
+ }
