@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7150236F1D06E91900E06006 /* TempleTimingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7150236E1D06E91900E06006 /* TempleTimingsViewController.swift */; };
+		715023711D06FA4500E06006 /* TempleTimingsCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715023701D06FA4500E06006 /* TempleTimingsCustomCell.swift */; };
+		715023731D07095E00E06006 /* SevasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715023721D07095E00E06006 /* SevasViewController.swift */; };
+		715023751D0709C200E06006 /* SevasCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715023741D0709C200E06006 /* SevasCustomCell.swift */; };
+		715023771D07285C00E06006 /* DoAndDontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715023761D07285C00E06006 /* DoAndDontViewController.swift */; };
+		7150237B1D072BB300E06006 /* DoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7150237A1D072BB300E06006 /* DoTableViewCell.swift */; };
+		7150237D1D07404500E06006 /* PrasadasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7150237C1D07404500E06006 /* PrasadasViewController.swift */; };
 		71F8F0191D06A281009B2A80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8F0181D06A281009B2A80 /* AppDelegate.swift */; };
 		71F8F01B1D06A281009B2A80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8F01A1D06A281009B2A80 /* ViewController.swift */; };
 		71F8F01E1D06A282009B2A80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F8F01C1D06A282009B2A80 /* Main.storyboard */; };
@@ -14,6 +21,8 @@
 		71F8F0231D06A282009B2A80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F8F0211D06A282009B2A80 /* LaunchScreen.storyboard */; };
 		71F8F02E1D06A283009B2A80 /* YadadriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8F02D1D06A283009B2A80 /* YadadriTests.swift */; };
 		71F8F0391D06A283009B2A80 /* YadadriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8F0381D06A283009B2A80 /* YadadriUITests.swift */; };
+		71F8F0481D06C029009B2A80 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8F0471D06C029009B2A80 /* DetailTableViewController.swift */; };
+		71F8F04A1D06DBD6009B2A80 /* TempleHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8F0491D06DBD6009B2A80 /* TempleHistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7150236E1D06E91900E06006 /* TempleTimingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempleTimingsViewController.swift; sourceTree = "<group>"; };
+		715023701D06FA4500E06006 /* TempleTimingsCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempleTimingsCustomCell.swift; sourceTree = "<group>"; };
+		715023721D07095E00E06006 /* SevasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SevasViewController.swift; sourceTree = "<group>"; };
+		715023741D0709C200E06006 /* SevasCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SevasCustomCell.swift; sourceTree = "<group>"; };
+		715023761D07285C00E06006 /* DoAndDontViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoAndDontViewController.swift; sourceTree = "<group>"; };
+		7150237A1D072BB300E06006 /* DoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoTableViewCell.swift; sourceTree = "<group>"; };
+		7150237C1D07404500E06006 /* PrasadasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrasadasViewController.swift; sourceTree = "<group>"; };
 		71F8F0151D06A280009B2A80 /* Yadadri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yadadri.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71F8F0181D06A281009B2A80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71F8F01A1D06A281009B2A80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +63,8 @@
 		71F8F0341D06A283009B2A80 /* YadadriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YadadriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71F8F0381D06A283009B2A80 /* YadadriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YadadriUITests.swift; sourceTree = "<group>"; };
 		71F8F03A1D06A283009B2A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71F8F0471D06C029009B2A80 /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		71F8F0491D06DBD6009B2A80 /* TempleHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempleHistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +117,15 @@
 			children = (
 				71F8F0181D06A281009B2A80 /* AppDelegate.swift */,
 				71F8F01A1D06A281009B2A80 /* ViewController.swift */,
+				71F8F0471D06C029009B2A80 /* DetailTableViewController.swift */,
+				715023761D07285C00E06006 /* DoAndDontViewController.swift */,
+				7150237A1D072BB300E06006 /* DoTableViewCell.swift */,
+				71F8F0491D06DBD6009B2A80 /* TempleHistoryViewController.swift */,
+				7150236E1D06E91900E06006 /* TempleTimingsViewController.swift */,
+				715023701D06FA4500E06006 /* TempleTimingsCustomCell.swift */,
+				715023721D07095E00E06006 /* SevasViewController.swift */,
+				715023741D0709C200E06006 /* SevasCustomCell.swift */,
+				7150237C1D07404500E06006 /* PrasadasViewController.swift */,
 				71F8F01C1D06A282009B2A80 /* Main.storyboard */,
 				71F8F01F1D06A282009B2A80 /* Assets.xcassets */,
 				71F8F0211D06A282009B2A80 /* LaunchScreen.storyboard */,
@@ -256,7 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7150237D1D07404500E06006 /* PrasadasViewController.swift in Sources */,
+				715023731D07095E00E06006 /* SevasViewController.swift in Sources */,
+				715023751D0709C200E06006 /* SevasCustomCell.swift in Sources */,
+				71F8F04A1D06DBD6009B2A80 /* TempleHistoryViewController.swift in Sources */,
+				71F8F0481D06C029009B2A80 /* DetailTableViewController.swift in Sources */,
 				71F8F01B1D06A281009B2A80 /* ViewController.swift in Sources */,
+				715023771D07285C00E06006 /* DoAndDontViewController.swift in Sources */,
+				715023711D06FA4500E06006 /* TempleTimingsCustomCell.swift in Sources */,
+				7150236F1D06E91900E06006 /* TempleTimingsViewController.swift in Sources */,
+				7150237B1D072BB300E06006 /* DoTableViewCell.swift in Sources */,
 				71F8F0191D06A281009B2A80 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +518,7 @@
 				71F8F03F1D06A283009B2A80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71F8F0401D06A283009B2A80 /* Build configuration list for PBXNativeTarget "YadadriTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +527,7 @@
 				71F8F0421D06A283009B2A80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71F8F0431D06A283009B2A80 /* Build configuration list for PBXNativeTarget "YadadriUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +536,7 @@
 				71F8F0451D06A283009B2A80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
