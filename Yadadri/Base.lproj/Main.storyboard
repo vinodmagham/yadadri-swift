@@ -272,8 +272,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="40" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="47l-4c-uOK">
-                                <rect key="frame" x="0.0" y="8" width="600" height="592"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="40" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="47l-4c-uOK">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="40" id="dSx-HT-Af3" customClass="SevasCustomCell" customModule="Yadadri" customModuleProvider="target">
@@ -283,30 +283,30 @@
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="39"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wvs-9y-e1f" userLabel="SevasLbl">
-                                                    <rect key="frame" x="33" y="9" width="315" height="18"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rIm-cL-jPz" userLabel="CostLbl">
-                                                    <rect key="frame" x="435" y="10" width="97" height="17"/>
+                                                    <rect key="frame" x="442" y="10" width="97" height="17"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="97" id="bkK-Ip-wPo"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wvs-9y-e1f" userLabel="SevasLbl">
+                                                    <rect key="frame" x="8" y="9" width="384" height="18"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="Wvs-9y-e1f" firstAttribute="top" secondItem="0Zo-gJ-hbB" secondAttribute="topMargin" constant="1" id="4QZ-sw-FD1"/>
-                                                <constraint firstItem="Wvs-9y-e1f" firstAttribute="leading" secondItem="0Zo-gJ-hbB" secondAttribute="leadingMargin" constant="25" id="Q1Z-2g-WKj"/>
+                                                <constraint firstItem="Wvs-9y-e1f" firstAttribute="leading" secondItem="0Zo-gJ-hbB" secondAttribute="leadingMargin" id="Q1Z-2g-WKj"/>
                                                 <constraint firstItem="rIm-cL-jPz" firstAttribute="baseline" secondItem="Wvs-9y-e1f" secondAttribute="baseline" id="cgU-ot-n83"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="Wvs-9y-e1f" secondAttribute="bottom" constant="4" id="fox-Dj-o63"/>
-                                                <constraint firstItem="rIm-cL-jPz" firstAttribute="leading" secondItem="Wvs-9y-e1f" secondAttribute="trailing" constant="87" id="gBR-f7-jfN"/>
+                                                <constraint firstItem="rIm-cL-jPz" firstAttribute="leading" secondItem="Wvs-9y-e1f" secondAttribute="trailing" constant="50" id="gBR-f7-jfN"/>
                                                 <constraint firstItem="rIm-cL-jPz" firstAttribute="centerY" secondItem="Wvs-9y-e1f" secondAttribute="centerY" id="go8-pQ-I7m"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="rIm-cL-jPz" secondAttribute="trailing" constant="60" id="s8k-Wf-nLp"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="rIm-cL-jPz" secondAttribute="trailing" constant="53" id="s8k-Wf-nLp"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -322,6 +322,12 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="47l-4c-uOK" firstAttribute="leading" secondItem="7ag-u1-GFG" secondAttribute="leading" id="2su-OU-cfC"/>
+                            <constraint firstAttribute="trailing" secondItem="47l-4c-uOK" secondAttribute="trailing" id="Eiu-uV-TNE"/>
+                            <constraint firstItem="47l-4c-uOK" firstAttribute="bottom" secondItem="ZEz-ZZ-IOc" secondAttribute="top" id="UxR-fB-hRd"/>
+                            <constraint firstItem="47l-4c-uOK" firstAttribute="top" secondItem="7ag-u1-GFG" secondAttribute="top" id="nEu-TF-HhN"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="sevasTable" destination="47l-4c-uOK" id="t7v-2g-PZ6"/>
@@ -346,7 +352,10 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ggb-oD-lss">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">PRASADAM COUNTERS : Prasadam Counters are located near to the main temple entrance
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Ggb-oD-lss" secondAttribute="height" multiplier="1:1" id="2Mg-Xk-wmv"/>
+                                </constraints>
+                                <string key="text">PRASADAM COUNTERS : Prasadam Counters are located near to the main temple entrance
 
 Timings : 7-00 AM  TO    9-00 PM 
 Saturday, Sunday and other important days the Counters were opened from 7 AM to 9 PM un-interruptedly. 
@@ -362,7 +371,7 @@ S.NO.          NAME OF THE PRASADAM         COST
 4.                Vada                                                  8-00
  
 Distribution of free prasadam:
-100 Kgs of Pulihora prasadam and 6 Kgs of Daddojanam prasadam is being distributed freely to the piligrims in the temple daily.</mutableString>
+100 Kgs of Pulihora prasadam and 6 Kgs of Daddojanam prasadam is being distributed freely to the piligrims in the temple daily.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -458,10 +467,10 @@ Distribution of free prasadam:
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tgJ-44-EWs">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="618"/>
                                 <color key="backgroundColor" red="1" green="0.95294117647058818" blue="0.8784313725490196" alpha="0.89577047413793098" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">Long ago Sri Yada Maharshi son of Sri Rushyashrunga Maharshi with the Blessings of Anjaneya Swamy had performed great penance for Lord  Narasimha Swamy (an incarnation of Lord Vishnu) in a cave on the hill currently known as Yadagirigutta. Pleased with his deep devotion, Lord Narasimha appeared before him in five different forms as Sri Jwala Narsimha, Sri Yogananda Narasimha, Sri Ugra Narasimha, Sri Gandaberunda Narasimha, and Sri Laksmi Narasimha.                                  
+                                <string key="text">Long ago Sri Yada Maharshi son of Sri Rushyashrunga Maharshi with the Blessings of Anjaneya Swamy had performed great penance for Lord  Narasimha Swamy (an incarnation of Lord Vishnu) in a cave on the hill currently known as Yadagirigutta. Pleased with his deep devotion, Lord Narasimha appeared before him in five different forms as Sri Jwala Narsimha, Sri Yogananda Narasimha, Sri Ugra Narasimha, Sri Gandaberunda Narasimha, and Sri Laksmi Narasimha.                                  
 It is believed that the Lord Initially appeared as Jwala Narasimha Swamy (Lord as a flame). Yada Maharishi was unable to face the intensity of this form of appearance. Later the Lord appeared in a peaceful form as Yoga Narasimha (Lord in a Yogic Padmasana posture with open palms on the knees). Not satisfied with the Lord appearing alone, Yada Maharshi sought to see him with his consort, so he is said to have appeared with Lakshmi on his lap', known as Lakshmi Narasimha Swamy. This form is worshipped by Alwars, his ardent devotees. As such this pilgrimage is also known as “Rushi Aradhana Kshetra” or the place of worship for sages.                                                                                                                Yada Maharishi was granted a boon by the Lord, where in the hill would be known after his name as Yadagiri (giri means hill in Sanskrit, and gutta which means a hillock in Telugu seems to have been a latter-day suffix). The sculpture of Lord Narasimha along with the goddess Lakshmi were embossed on the walls of the cave and were worshipped for many years to come
 
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
