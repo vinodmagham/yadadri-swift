@@ -11,7 +11,7 @@ import UIKit
 class DetailTableViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
     @IBOutlet weak var detailTable: UITableView!
-     var tableList = ["History","Temple Timings", "Archanas & Sevas", "Do's & Dont's", "Prasadas", "Songs", "Bhajanas"]
+     var tableList = ["History","Temple Timings", "Archanas & Sevas", "Do's & Dont's", "Prasadas", "Songs", "Bhajanas","How to Reach"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -82,12 +82,12 @@ func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexP
         else if(indexPath.row == 5){
             
         }
+        else if(indexPath.row == 7){
+            let timingsView : LocationsViewController = storyboard?.instantiateViewControllerWithIdentifier("LocationsViewController") as! LocationsViewController
+            self.navigationController?.pushViewController(timingsView, animated: true)
 
-
-
-
-
-    
+            
+        }
     }
     
     

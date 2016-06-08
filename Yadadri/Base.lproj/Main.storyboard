@@ -452,6 +452,75 @@ Distribution of free prasadam:
             </objects>
             <point key="canvasLocation" x="2950" y="1068"/>
         </scene>
+        <!--Locations View Controller-->
+        <scene sceneID="laj-lo-JLG">
+            <objects>
+                <viewController storyboardIdentifier="LocationsViewController" id="c0z-uc-pup" customClass="LocationsViewController" customModule="Yadadri" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="v0j-nT-Xjc"/>
+                        <viewControllerLayoutGuide type="bottom" id="wZf-4Z-xkS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="V3m-j4-AZd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="NCW-iL-QIY">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="148"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" textLabel="NdH-FH-jFz" style="IBUITableViewCellStyleDefault" id="nTm-lU-lEt">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nTm-lU-lEt" id="YB3-vK-dDj">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NdH-FH-jFz">
+                                                    <rect key="frame" x="15" y="0.0" width="570" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="c0z-uc-pup" id="785-SX-LEn"/>
+                                    <outlet property="delegate" destination="c0z-uc-pup" id="OH7-Cj-ryt"/>
+                                </connections>
+                            </tableView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="4F9-je-zd5">
+                                <rect key="frame" x="0.0" y="149" width="600" height="451"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="451" id="qny-Ht-jVp"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="c0z-uc-pup" id="7Mp-UB-wth"/>
+                                </connections>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NCW-iL-QIY" firstAttribute="leading" secondItem="V3m-j4-AZd" secondAttribute="leading" id="3Hy-WJ-DbJ"/>
+                            <constraint firstItem="4F9-je-zd5" firstAttribute="top" secondItem="NCW-iL-QIY" secondAttribute="bottom" constant="1" id="AW7-bn-iYG"/>
+                            <constraint firstItem="4F9-je-zd5" firstAttribute="leading" secondItem="NCW-iL-QIY" secondAttribute="leading" id="BFf-LK-c7v"/>
+                            <constraint firstItem="4F9-je-zd5" firstAttribute="trailing" secondItem="NCW-iL-QIY" secondAttribute="trailing" id="Saz-yd-H4Q"/>
+                            <constraint firstItem="NCW-iL-QIY" firstAttribute="top" secondItem="V3m-j4-AZd" secondAttribute="top" id="aQK-Hm-cBJ"/>
+                            <constraint firstAttribute="trailing" secondItem="NCW-iL-QIY" secondAttribute="trailing" id="m0m-Gp-Wjs"/>
+                            <constraint firstItem="4F9-je-zd5" firstAttribute="bottom" secondItem="wZf-4Z-xkS" secondAttribute="top" id="ywP-S0-v05"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="locationTable" destination="NCW-iL-QIY" id="dq0-Ys-Qf3"/>
+                        <outlet property="mapView" destination="4F9-je-zd5" id="sGO-VY-T0s"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eAt-Yg-zhf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3603" y="1075"/>
+        </scene>
         <!--Temple History View Controller-->
         <scene sceneID="dc6-vm-NLx">
             <objects>
