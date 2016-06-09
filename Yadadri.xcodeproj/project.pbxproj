@@ -24,6 +24,10 @@
 		71F8F0391D06A283009B2A80 /* YadadriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8F0381D06A283009B2A80 /* YadadriUITests.swift */; };
 		71F8F0481D06C029009B2A80 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8F0471D06C029009B2A80 /* DetailTableViewController.swift */; };
 		71F8F04A1D06DBD6009B2A80 /* TempleHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8F0491D06DBD6009B2A80 /* TempleHistoryViewController.swift */; };
+		D16515D61D07F287003D7A0D /* SongsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D16515D51D07F287003D7A0D /* SongsTableViewCell.xib */; };
+		D16515D81D07F2FC003D7A0D /* SongaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16515D71D07F2FC003D7A0D /* SongaViewController.swift */; };
+		D16515DA1D07F3A2003D7A0D /* SongsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16515D91D07F3A2003D7A0D /* SongsTableViewCell.swift */; };
+		D16515DC1D07FA13003D7A0D /* Sreekara Subhakara-(Mr-Jatt.com).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D16515DB1D07FA13003D7A0D /* Sreekara Subhakara-(Mr-Jatt.com).mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +71,10 @@
 		71F8F03A1D06A283009B2A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71F8F0471D06C029009B2A80 /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
 		71F8F0491D06DBD6009B2A80 /* TempleHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempleHistoryViewController.swift; sourceTree = "<group>"; };
+		D16515D51D07F287003D7A0D /* SongsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SongsTableViewCell.xib; sourceTree = "<group>"; };
+		D16515D71D07F2FC003D7A0D /* SongaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongaViewController.swift; sourceTree = "<group>"; };
+		D16515D91D07F3A2003D7A0D /* SongsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongsTableViewCell.swift; sourceTree = "<group>"; };
+		D16515DB1D07FA13003D7A0D /* Sreekara Subhakara-(Mr-Jatt.com).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sreekara Subhakara-(Mr-Jatt.com).mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +137,10 @@
 				715023721D07095E00E06006 /* SevasViewController.swift */,
 				715023741D0709C200E06006 /* SevasCustomCell.swift */,
 				7150237C1D07404500E06006 /* PrasadasViewController.swift */,
+				D16515D71D07F2FC003D7A0D /* SongaViewController.swift */,
+				D16515D91D07F3A2003D7A0D /* SongsTableViewCell.swift */,
+				D16515D51D07F287003D7A0D /* SongsTableViewCell.xib */,
+				D16515DB1D07FA13003D7A0D /* Sreekara Subhakara-(Mr-Jatt.com).mp3 */,
 				71F8F01C1D06A282009B2A80 /* Main.storyboard */,
 				71F8F01F1D06A282009B2A80 /* Assets.xcassets */,
 				71F8F0211D06A282009B2A80 /* LaunchScreen.storyboard */,
@@ -259,10 +271,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D16515DC1D07FA13003D7A0D /* Sreekara Subhakara-(Mr-Jatt.com).mp3 in Resources */,
 				712DAF201D07DF1400376DEB /* .gitignore in Resources */,
 				71F8F0231D06A282009B2A80 /* LaunchScreen.storyboard in Resources */,
 				71F8F0201D06A282009B2A80 /* Assets.xcassets in Resources */,
 				71F8F01E1D06A282009B2A80 /* Main.storyboard in Resources */,
+				D16515D61D07F287003D7A0D /* SongsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,8 +308,10 @@
 				71F8F0481D06C029009B2A80 /* DetailTableViewController.swift in Sources */,
 				71F8F01B1D06A281009B2A80 /* ViewController.swift in Sources */,
 				715023771D07285C00E06006 /* DoAndDontViewController.swift in Sources */,
+				D16515D81D07F2FC003D7A0D /* SongaViewController.swift in Sources */,
 				715023711D06FA4500E06006 /* TempleTimingsCustomCell.swift in Sources */,
 				7150236F1D06E91900E06006 /* TempleTimingsViewController.swift in Sources */,
+				D16515DA1D07F3A2003D7A0D /* SongsTableViewCell.swift in Sources */,
 				7150237B1D072BB300E06006 /* DoTableViewCell.swift in Sources */,
 				71F8F0191D06A281009B2A80 /* AppDelegate.swift in Sources */,
 			);

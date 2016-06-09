@@ -11,7 +11,7 @@ import UIKit
 class DetailTableViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
     @IBOutlet weak var detailTable: UITableView!
-     var tableList = ["History","Temple Timings", "Archanas & Sevas", "Do's & Dont's", "Prasadas", "Songs", "Bhajanas"]
+     var tableList = ["History","Temple Timings", "Archanas & Sevas", "Do's & Dont's", "Prasadas", "Audio Album", "Bhajanas"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -80,6 +80,9 @@ func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexP
             
         }
         else if(indexPath.row == 5){
+            
+            let songsView : SongaViewController = storyboard?.instantiateViewControllerWithIdentifier("SongaViewController") as! SongaViewController
+            self.navigationController?.pushViewController(songsView, animated: true)
             
         }
 

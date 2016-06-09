@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BKe-oX-lMy">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BKe-oX-lMy">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -507,6 +507,51 @@ It is believed that the Lord Initially appeared as Jwala Narasimha Swamy (Lord a
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MwP-Mk-pDy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="372" y="388"/>
+        </scene>
+        <!--Songa View Controller-->
+        <scene sceneID="Vwk-XE-JN9">
+            <objects>
+                <viewController storyboardIdentifier="SongaViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="s0E-Fp-DHg" customClass="SongaViewController" customModule="Yadadri" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9df-It-Mud"/>
+                        <viewControllerLayoutGuide type="bottom" id="H9p-gt-oVc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CVg-1i-Zig">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.14999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="narasimha" translatesAutoresizingMaskIntoConstraints="NO" id="xvW-88-zuu">
+                                <rect key="frame" x="0.0" y="58" width="600" height="542"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EMG-XW-TqY">
+                                <rect key="frame" x="0.0" y="58" width="600" height="460"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="s0E-Fp-DHg" id="2Nx-6a-48d"/>
+                                    <outlet property="delegate" destination="s0E-Fp-DHg" id="9db-pP-BDs"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="EMG-XW-TqY" firstAttribute="trailing" secondItem="xvW-88-zuu" secondAttribute="trailing" id="3yc-8g-yg3"/>
+                            <constraint firstItem="xvW-88-zuu" firstAttribute="leading" secondItem="CVg-1i-Zig" secondAttribute="leading" id="756-uI-8ej"/>
+                            <constraint firstItem="EMG-XW-TqY" firstAttribute="top" secondItem="xvW-88-zuu" secondAttribute="top" id="CTT-Va-dnF"/>
+                            <constraint firstItem="xvW-88-zuu" firstAttribute="top" secondItem="CVg-1i-Zig" secondAttribute="top" constant="58" id="MDv-V6-JOC"/>
+                            <constraint firstAttribute="trailing" secondItem="xvW-88-zuu" secondAttribute="trailing" id="WpO-yn-JFY"/>
+                            <constraint firstItem="xvW-88-zuu" firstAttribute="bottom" secondItem="H9p-gt-oVc" secondAttribute="top" id="iNN-Q0-vFu"/>
+                            <constraint firstItem="H9p-gt-oVc" firstAttribute="top" secondItem="EMG-XW-TqY" secondAttribute="bottom" constant="82" id="se5-PJ-SFD"/>
+                            <constraint firstItem="EMG-XW-TqY" firstAttribute="leading" secondItem="xvW-88-zuu" secondAttribute="leading" id="ujL-pz-Iwm"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="songsTableView" destination="EMG-XW-TqY" id="Ufm-Aq-6SD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8E7-T4-sK1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="556" y="1097"/>
         </scene>
     </scenes>
     <resources>
