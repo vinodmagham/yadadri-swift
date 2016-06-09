@@ -554,7 +554,76 @@ Distribution of free prasadam:
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lAB-Q5-vyu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4416" y="1019"/>
+            <point key="canvasLocation" x="4366" y="1019"/>
+        </scene>
+        <!--Locations View Controller-->
+        <scene sceneID="N6h-X9-aZb">
+            <objects>
+                <viewController storyboardIdentifier="LocationsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="osJ-2h-3vT" customClass="LocationsViewController" customModule="Yadadri" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XUm-Yd-WAY"/>
+                        <viewControllerLayoutGuide type="bottom" id="CDx-Yt-9tb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gRq-pm-ChF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uVj-iZ-IFg">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="186"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" textLabel="gUc-xh-fCj" style="IBUITableViewCellStyleDefault" id="f4G-zI-WUd">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="f4G-zI-WUd" id="1bk-c2-2hn">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gUc-xh-fCj">
+                                                    <rect key="frame" x="15" y="0.0" width="570" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="osJ-2h-3vT" id="gCs-eV-7Ej"/>
+                                    <outlet property="delegate" destination="osJ-2h-3vT" id="sP6-Ay-7CQ"/>
+                                </connections>
+                            </tableView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="HHW-Jq-VIp">
+                                <rect key="frame" x="0.0" y="186" width="600" height="414"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="414" id="0uz-Ml-bya"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="osJ-2h-3vT" id="6Pd-vh-8I1"/>
+                                </connections>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uVj-iZ-IFg" firstAttribute="top" secondItem="gRq-pm-ChF" secondAttribute="top" id="8M2-V5-Hbd"/>
+                            <constraint firstAttribute="trailing" secondItem="HHW-Jq-VIp" secondAttribute="trailing" id="Exo-YB-4hk"/>
+                            <constraint firstItem="HHW-Jq-VIp" firstAttribute="top" secondItem="uVj-iZ-IFg" secondAttribute="bottom" id="JdB-0d-p33"/>
+                            <constraint firstItem="HHW-Jq-VIp" firstAttribute="leading" secondItem="gRq-pm-ChF" secondAttribute="leading" id="M8H-Qj-DrD"/>
+                            <constraint firstItem="HHW-Jq-VIp" firstAttribute="bottom" secondItem="CDx-Yt-9tb" secondAttribute="top" id="Ue6-Fo-1ya"/>
+                            <constraint firstItem="HHW-Jq-VIp" firstAttribute="trailing" secondItem="uVj-iZ-IFg" secondAttribute="trailing" id="fCF-jX-Epn"/>
+                            <constraint firstItem="HHW-Jq-VIp" firstAttribute="leading" secondItem="uVj-iZ-IFg" secondAttribute="leading" id="xeh-Bh-rCI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="locationTable" destination="uVj-iZ-IFg" id="TMF-37-adf"/>
+                        <outlet property="mapView" destination="HHW-Jq-VIp" id="wJ6-9k-2h3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pkG-Zr-KuZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5016" y="1013"/>
         </scene>
         <!--Temple History View Controller-->
         <scene sceneID="dc6-vm-NLx">
