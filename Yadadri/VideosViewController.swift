@@ -8,18 +8,37 @@
 
 import UIKit
 import Parse
+import AVFoundation
+import AVKit
+import YouTubePlayer
 
 
-class VideosViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
-    
-    @IBOutlet weak var videosListTable: UITableView!
+class VideosViewController: UIViewController,UITableViewDelegate,UITableViewDataSource,UIWebViewDelegate {
+
+@IBOutlet weak var videosListTable: UITableView!
     var allObjects: [AnyObject] = []
     var allObjectIds: [AnyObject] = []
+    var thumbUrls: [AnyObject] = []
+    var VideoID:String!
+    
        override func viewDidLoad() {
         super.viewDidLoad()
+        let leftsidebarbutton=UIBarButtonItem();
+        leftsidebarbutton.image=UIImage(named:"backArrow")
+        leftsidebarbutton.style=UIBarButtonItemStyle.Plain
+        leftsidebarbutton.target=self
+       leftsidebarbutton.action=#selector(VideosViewController.goBack)
+        self.navigationItem.leftBarButtonItem=leftsidebarbutton
+         self.navigationItem.leftBarButtonItem?.tintColor = UIColor .blackColor()
+         self.navigationItem.title = "Videos"
         self .getVideos()
      }
-         override func didReceiveMemoryWarning() {
+    
+    func goBack() {
+        self.navigationController!.popViewControllerAnimated(true)
+    }
+
+    override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
        }
     
@@ -32,6 +51,7 @@ class VideosViewController: UIViewController,UITableViewDelegate,UITableViewData
                 for object  in objects! {
                     self.allObjects.append(object["title"])
                      self.allObjectIds.append(object["videoId"])
+                    self.thumbUrls.append(object["thumbUrl"])
 //                    print(object["title"])
 //                    print(object["videoId"])
                     
@@ -51,20 +71,24 @@ class VideosViewController: UIViewController,UITableViewDelegate,UITableViewData
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cellReuseIdentifier = "VideosTableViewCell"
         let cell:VideosTableViewCell = videosListTable.dequeueReusableCellWithIdentifier(cellReuseIdentifier) as! VideosTableViewCell!
-       cell.videoTitleLabel.text =  allObjects[indexPath.row] as? String
-        let token : NSString = allObjectIds[indexPath.row] as! NSString
-        let imageData = NSData(contentsOfURL: NSURL(string: "https://www.youtube.com/watch?v=\(token).jpg")!)
-        cell.videoThumbImage.image = UIImage(data: (imageData)!)
+        cell.videoTitleLabel.text =  allObjects[indexPath.row] as? String
+        let imageUrl = thumbUrls[indexPath.row]
+        let url = NSURL(string:imageUrl as! String)
+        let   data = NSData(contentsOfURL:url!)
+        if data != nil {
+             cell.videoThumbImage.image = UIImage(data: (data)!)
+        }
+  
         return cell
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        let selectedCell:UITableViewCell = videosListTable.cellForRowAtIndexPath(indexPath)!
-        selectedCell.contentView.backgroundColor = UIColor.orangeColor()
-        if(indexPath.row == 0){
-            let historyView : TempleHistoryViewController = storyboard?.instantiateViewControllerWithIdentifier("TempleHistoryViewController") as! TempleHistoryViewController
-            self.navigationController?.pushViewController(historyView, animated: true)
-           }
-    }
+        VideoID = allObjectIds[indexPath.row] as! String
+        
+        let doView : YTPlayerViewController = storyboard?.instantiateViewControllerWithIdentifier("YTPlayerViewController") as! YTPlayerViewController
+        doView.detailVideoID = VideoID
+        self.navigationController?.pushViewController(doView, animated: true)
 
+    }
+    
 }

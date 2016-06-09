@@ -461,38 +461,38 @@ Distribution of free prasadam:
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="153" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="X0e-5l-VVz">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="195" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="X0e-5l-VVz">
+                                <rect key="frame" x="0.0" y="-8" width="600" height="608"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideosTableViewCell" rowHeight="153" id="6hK-Go-78i" customClass="VideosTableViewCell" customModule="Yadadri" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="600" height="153"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideosTableViewCell" rowHeight="195" id="6hK-Go-78i" customClass="VideosTableViewCell" customModule="Yadadri" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="600" height="195"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6hK-Go-78i" id="5Wj-ym-zji">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="152"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="194"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ud0-Yk-Pig">
-                                                    <rect key="frame" x="8" y="12" width="240" height="128"/>
-                                                    <color key="backgroundColor" red="1" green="0.58842806208053688" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="240" id="uIO-FL-YbG"/>
-                                                    </constraints>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldr-Z8-XUL">
-                                                    <rect key="frame" x="265" y="65" width="306" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldr-Z8-XUL">
+                                                    <rect key="frame" x="0.0" y="155" width="600" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ud0-Yk-Pig">
+                                                    <rect key="frame" x="180" y="7" width="240" height="128"/>
+                                                    <color key="backgroundColor" red="1" green="0.58842806208053688" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="240" id="SkA-4h-GZ0"/>
+                                                        <constraint firstAttribute="height" constant="128" id="Yaa-VI-z2Z"/>
+                                                    </constraints>
+                                                </imageView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="ud0-Yk-Pig" firstAttribute="leading" secondItem="5Wj-ym-zji" secondAttribute="leadingMargin" id="18p-2B-8LP"/>
-                                                <constraint firstItem="ud0-Yk-Pig" firstAttribute="top" secondItem="5Wj-ym-zji" secondAttribute="topMargin" constant="4" id="4yf-Ph-sVI"/>
-                                                <constraint firstItem="ldr-Z8-XUL" firstAttribute="leading" secondItem="ud0-Yk-Pig" secondAttribute="trailing" constant="17" id="EtL-5p-wCi"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="ldr-Z8-XUL" secondAttribute="trailing" constant="21" id="NRS-KG-A18"/>
-                                                <constraint firstItem="ud0-Yk-Pig" firstAttribute="centerY" secondItem="5Wj-ym-zji" secondAttribute="centerY" id="TXC-r7-Trj"/>
-                                                <constraint firstItem="ud0-Yk-Pig" firstAttribute="centerY" secondItem="ldr-Z8-XUL" secondAttribute="centerY" id="qX6-8J-nsl"/>
+                                                <constraint firstItem="ldr-Z8-XUL" firstAttribute="top" secondItem="ud0-Yk-Pig" secondAttribute="bottom" constant="20" id="59b-pI-YDJ"/>
+                                                <constraint firstItem="ud0-Yk-Pig" firstAttribute="centerX" secondItem="ldr-Z8-XUL" secondAttribute="centerX" id="7md-5e-ayV"/>
+                                                <constraint firstItem="ud0-Yk-Pig" firstAttribute="top" secondItem="5Wj-ym-zji" secondAttribute="top" constant="7" id="kKm-3K-ggk"/>
+                                                <constraint firstItem="ldr-Z8-XUL" firstAttribute="leading" secondItem="5Wj-ym-zji" secondAttribute="leading" id="mS0-v6-qGR"/>
+                                                <constraint firstAttribute="trailing" secondItem="ldr-Z8-XUL" secondAttribute="trailing" id="uBu-96-ZIy"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -509,7 +509,7 @@ Distribution of free prasadam:
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="X0e-5l-VVz" firstAttribute="top" secondItem="T8X-GN-2oz" secondAttribute="top" id="0bL-Kd-m7d"/>
+                            <constraint firstItem="X0e-5l-VVz" firstAttribute="top" secondItem="T8X-GN-2oz" secondAttribute="top" constant="-8" id="0bL-Kd-m7d"/>
                             <constraint firstItem="X0e-5l-VVz" firstAttribute="bottom" secondItem="PRC-Tm-VQI" secondAttribute="top" id="9lv-T2-ToL"/>
                             <constraint firstItem="X0e-5l-VVz" firstAttribute="leading" secondItem="T8X-GN-2oz" secondAttribute="leading" id="Pur-yR-mvh"/>
                             <constraint firstAttribute="trailing" secondItem="X0e-5l-VVz" secondAttribute="trailing" id="zX5-VT-vVN"/>
@@ -522,6 +522,39 @@ Distribution of free prasadam:
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SlE-4R-QVG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3592" y="1019"/>
+        </scene>
+        <!--Player View Controller-->
+        <scene sceneID="1LA-aO-L2I">
+            <objects>
+                <viewController storyboardIdentifier="YTPlayerViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BWf-Xo-LvS" customClass="YTPlayerViewController" customModule="Yadadri" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1Y7-4c-D8H"/>
+                        <viewControllerLayoutGuide type="bottom" id="zjX-nX-tg5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hcy-ar-Pdo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W6B-2V-IdW" customClass="YTPlayerView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="W6B-2V-IdW" firstAttribute="bottom" secondItem="zjX-nX-tg5" secondAttribute="top" id="0tf-VV-7qY"/>
+                            <constraint firstAttribute="trailing" secondItem="W6B-2V-IdW" secondAttribute="trailing" id="92w-1c-JF1"/>
+                            <constraint firstItem="W6B-2V-IdW" firstAttribute="leading" secondItem="hcy-ar-Pdo" secondAttribute="leading" id="EoP-Hh-GIN"/>
+                            <constraint firstItem="W6B-2V-IdW" firstAttribute="top" secondItem="hcy-ar-Pdo" secondAttribute="top" id="gf0-uq-Ykf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="playerView" destination="W6B-2V-IdW" id="zTG-wc-ywu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lAB-Q5-vyu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4416" y="1019"/>
         </scene>
         <!--Temple History View Controller-->
         <scene sceneID="dc6-vm-NLx">

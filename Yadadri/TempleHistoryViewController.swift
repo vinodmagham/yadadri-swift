@@ -16,7 +16,7 @@ class TempleHistoryViewController: UIViewController {
         leftsidebarbutton.image=UIImage(named:"backArrow")
         leftsidebarbutton.style=UIBarButtonItemStyle.Plain
         leftsidebarbutton.target=self
-        leftsidebarbutton.action=#selector(DetailTableViewController.goBack)
+        leftsidebarbutton.action=#selector(TempleHistoryViewController.goBack)
         self.navigationItem.leftBarButtonItem=leftsidebarbutton
         self.navigationItem.leftBarButtonItem?.tintColor = UIColor .blackColor()
          self.navigationItem.title = "Temple History"

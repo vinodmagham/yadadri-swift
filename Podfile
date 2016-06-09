@@ -5,6 +5,7 @@ target 'Yadadri' do
    use_frameworks!
 
   pod 'Parse'
+  pod 'YouTubePlayer'
   
   target 'YadadriTests' do
     inherit! :search_paths

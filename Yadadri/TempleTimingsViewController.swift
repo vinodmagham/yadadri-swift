@@ -29,7 +29,7 @@ class TempleTimingsViewController: UIViewController,UITableViewDelegate,UITableV
         leftsidebarbutton.image=UIImage(named:"backArrow")
         leftsidebarbutton.style=UIBarButtonItemStyle.Plain
         leftsidebarbutton.target=self
-        leftsidebarbutton.action=#selector(DetailTableViewController.goBack)
+        leftsidebarbutton.action=#selector(TempleTimingsViewController.goBack)
         self.navigationItem.leftBarButtonItem=leftsidebarbutton
         self.navigationItem.title = "Darshanam Timings"
         

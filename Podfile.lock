@@ -2,14 +2,17 @@ PODS:
   - Bolts/Tasks (1.7.0)
   - Parse (1.13.0):
     - Bolts/Tasks (~> 1.6)
+  - YouTubePlayer (0.3.0)
 
 DEPENDENCIES:
   - Parse
+  - YouTubePlayer
 
 SPEC CHECKSUMS:
   Bolts: a0058fa3b331c5a1e4402d534f2dae36dbff31e4
   Parse: f51c24d2feb412e4b2d6cc73d37cb24e8d0089bc
+  YouTubePlayer: 88713a96c356f2c88da8925eb61438eda88bcd57
 
-PODFILE CHECKSUM: 6a9308a47fb461c06b7864b9eb4d528855f29754
+PODFILE CHECKSUM: abd42d3d3c68ebdfeb5536532ad9aa1946537530
 
 COCOAPODS: 1.0.0
