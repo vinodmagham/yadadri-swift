@@ -337,55 +337,6 @@
             </objects>
             <point key="canvasLocation" x="2247" y="1116"/>
         </scene>
-        <!--Prasadas View Controller-->
-        <scene sceneID="yhJ-EN-qH8">
-            <objects>
-                <viewController storyboardIdentifier="PrasadasViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Wm7-ZK-KRB" customClass="PrasadasViewController" customModule="Yadadri" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Jf9-2i-ioQ"/>
-                        <viewControllerLayoutGuide type="bottom" id="3cT-tM-HAU"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Xdm-Vi-LDe">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ggb-oD-lss">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">PRASADAM COUNTERS : Prasadam Counters are located near to the main temple entrance
-
-Timings : 7-00 AM  TO    9-00 PM 
-Saturday, Sunday and other important days the Counters were opened from 7 AM to 9 PM un-interruptedly. 
-Separate Counters for Ladies are also arranged whenever necessary.
- 
-RATE (Various Types of PRASADAMS) :-
----------------------------------------------------------------------
-S.NO.          NAME OF THE PRASADAM         COST
----------------------------------------------------------------------
-1.                Pulihora                                             5-00
-2.                Dadyodanam                                     3-00
-3.                Laddu                                              10-00
-4.                Vada                                                  8-00
- 
-Distribution of free prasadam:
-100 Kgs of Pulihora prasadam and 6 Kgs of Daddojanam prasadam is being distributed freely to the piligrims in the temple daily.</string>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="Ggb-oD-lss" secondAttribute="trailing" id="71X-cT-q84"/>
-                            <constraint firstItem="Ggb-oD-lss" firstAttribute="top" secondItem="Xdm-Vi-LDe" secondAttribute="top" id="L4V-cD-R46"/>
-                            <constraint firstItem="Ggb-oD-lss" firstAttribute="leading" secondItem="Xdm-Vi-LDe" secondAttribute="leading" id="d7f-7k-JiM"/>
-                            <constraint firstItem="Ggb-oD-lss" firstAttribute="bottom" secondItem="3cT-tM-HAU" secondAttribute="top" id="rQL-Dr-ACO"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Jbp-9d-naX" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3188" y="327"/>
-        </scene>
         <!--Do And Dont View Controller-->
         <scene sceneID="pzp-IM-2eu">
             <objects>
@@ -660,6 +611,75 @@ It is believed that the Lord Initially appeared as Jwala Narasimha Swamy (Lord a
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r6R-bo-HXZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2409" y="418"/>
+        </scene>
+        <!--Temple Festivals View Controller-->
+        <scene sceneID="lNw-F5-keZ">
+            <objects>
+                <viewController storyboardIdentifier="TempleFestivalsViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="zgH-rX-BHa" customClass="TempleFestivalsViewController" customModule="Yadadri" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HgI-Dx-cGa"/>
+                        <viewControllerLayoutGuide type="bottom" id="t0d-7G-RaY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZTa-29-cDi">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="54X-Of-230">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Bramhostavams
+Every year SriSwamy vari Brahmothsavams are being performed during the months of  Palgunam i.e. from Shudha Vidiya to Dwadasi for (11 ) days (normally in the of month  Febrauary &amp; March).During the Brahmothsavams  cultural programs like Harikathas, Bajans,  Vocal recites, Upanyasams, Bharatha Natyams and Dramas were arranged with the well known artists and Scholars from the different places. 
+
+Jayanthi
+Sri Swamy vari Jayanthi Mahotsavams will perform from Vysakha Sudha Dwadasi to Chathurdashi. The programs were also arranged at the time of Narasimha Jayanthi,.Various Parayanams like Ramayan, Maha Bharath , Bhagawath Geetha, Kshetra Mahathyam, etc were arranged at the time of Brahmothsavams and Jayanthi. The Peethadhipathis &amp; Mathadhipathis who visited this temple are also given their Pravachanams to the Devotees.
+
+
+Swathi
+Sri Swamy vari Astothara Satha Ghatabhisekam will performs  every month on Swathi Nakshatram (i.e Birth star of Swamy varu) at 4-30 AM to 7-00 AM  as per Agama Shastra procedure.  Devotees may Participate in this Sathaghatabhisekham @ 750/- (Two persones allowed).
+
+
+Pavithrostavams
+Sri Swamy vari Pavithrotsavams will performs from Shravana Shudha Dashimi to Dwadashi.
+
+
+Adhyanotsavams
+Sri Swamy vari Adhyayanotsavams will perform Six days fromvaikunta Ekadasi
+
+Dhanurmasams
+During the Dhanurmasam days,  every day at early morning Margali will be held in the Temple and  Thiruppavai Keerthanams will be rendered  by  Archakas which were written by Andal Ammavaru.
+ 
+Annakutothsavam
+Annakutostavam will perform on the day of Kartheeka Pournami .
+            .
+   OTHER IMPORTANT FESTIVALS CELEBRATED
+1.Ramanuja Thirunakshathram.
+2.Nammalvar Thirunakshathram
+3.Manavala Mahammavari Thirunakshatram
+4.Thirumanjari alwar Thirunakshatram
+5.Thiruppavari alwar Thirunakshatram
+6.Andal Thirunakshatram
+7.Sri Krishna Janmastami
+8.Margali Masam
+9.Sri Rama Navami
+10.Maha Shiva Rathri
+11.Devi Navarathrulu
+12.Hanumath Jayanthi</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="54X-Of-230" firstAttribute="top" secondItem="ZTa-29-cDi" secondAttribute="top" id="Now-OS-veU"/>
+                            <constraint firstItem="54X-Of-230" firstAttribute="leading" secondItem="ZTa-29-cDi" secondAttribute="leading" id="OGB-kl-WFD"/>
+                            <constraint firstItem="54X-Of-230" firstAttribute="bottom" secondItem="t0d-7G-RaY" secondAttribute="top" id="dqh-UA-qfy"/>
+                            <constraint firstAttribute="trailing" secondItem="54X-Of-230" secondAttribute="trailing" id="hn5-fz-m8o"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XnP-Yu-xCj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3192" y="-24"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="iTr-Mr-D4h">
