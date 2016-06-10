@@ -19,6 +19,11 @@
 		715023771D07285C00E06006 /* DoAndDontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715023761D07285C00E06006 /* DoAndDontViewController.swift */; };
 		7150237B1D072BB300E06006 /* DoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7150237A1D072BB300E06006 /* DoTableViewCell.swift */; };
 		7150237D1D07404500E06006 /* PrasadasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7150237C1D07404500E06006 /* PrasadasViewController.swift */; };
+		71BB95111D0A7F05003A7BC7 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BB95101D0A7F05003A7BC7 /* Station.swift */; };
+		71BB95131D0A7F14003A7BC7 /* stations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71BB95121D0A7F14003A7BC7 /* stations.plist */; };
+		71BB95171D0A8E79003A7BC7 /* YadagiriAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BB95161D0A8E79003A7BC7 /* YadagiriAnnotation.swift */; };
+		71D08FB51D0AC84B00291878 /* surroundings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71D08FB41D0AC84B00291878 /* surroundings.plist */; };
+		71D08FB71D0AD21A00291878 /* Surroundings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D08FB61D0AD21A00291878 /* Surroundings.swift */; };
 		71F8F0191D06A281009B2A80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8F0181D06A281009B2A80 /* AppDelegate.swift */; };
 		71F8F01B1D06A281009B2A80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8F01A1D06A281009B2A80 /* ViewController.swift */; };
 		71F8F01E1D06A282009B2A80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F8F01C1D06A282009B2A80 /* Main.storyboard */; };
@@ -67,6 +72,11 @@
 		715023761D07285C00E06006 /* DoAndDontViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoAndDontViewController.swift; sourceTree = "<group>"; };
 		7150237A1D072BB300E06006 /* DoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoTableViewCell.swift; sourceTree = "<group>"; };
 		7150237C1D07404500E06006 /* PrasadasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrasadasViewController.swift; sourceTree = "<group>"; };
+		71BB95101D0A7F05003A7BC7 /* Station.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		71BB95121D0A7F14003A7BC7 /* stations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stations.plist; sourceTree = "<group>"; };
+		71BB95161D0A8E79003A7BC7 /* YadagiriAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YadagiriAnnotation.swift; sourceTree = "<group>"; };
+		71D08FB41D0AC84B00291878 /* surroundings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = surroundings.plist; sourceTree = "<group>"; };
+		71D08FB61D0AD21A00291878 /* Surroundings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Surroundings.swift; sourceTree = "<group>"; };
 		71F8F0151D06A280009B2A80 /* Yadadri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yadadri.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71F8F0181D06A281009B2A80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71F8F01A1D06A281009B2A80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +146,30 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		71BB95141D0A8129003A7BC7 /* Maplocations */ = {
+			isa = PBXGroup;
+			children = (
+				71BB95161D0A8E79003A7BC7 /* YadagiriAnnotation.swift */,
+				71BB95101D0A7F05003A7BC7 /* Station.swift */,
+				71D08FB61D0AD21A00291878 /* Surroundings.swift */,
+				71BB95121D0A7F14003A7BC7 /* stations.plist */,
+				71D08FB41D0AC84B00291878 /* surroundings.plist */,
+				712DAF211D07F89300376DEB /* LocationsViewController.swift */,
+			);
+			name = Maplocations;
+			sourceTree = "<group>";
+		};
+		71BB95151D0A8166003A7BC7 /* VideosPlay */ = {
+			isa = PBXGroup;
+			children = (
+				76B78EAF1D09878600AA5488 /* YTPlayerView.h */,
+				76F0D0641D07F04D0062B874 /* VideosViewController.swift */,
+				76B78EB01D09878D00AA5488 /* YTPlayerView.m */,
+				767CEA571D087BBF00B56B5E /* VideosTableViewCell.swift */,
+			);
+			name = VideosPlay;
+			sourceTree = "<group>";
+		};
 		71F8F00C1D06A280009B2A80 = {
 			isa = PBXGroup;
 			children = (
@@ -162,22 +196,19 @@
 		71F8F0171D06A281009B2A80 /* Yadadri */ = {
 			isa = PBXGroup;
 			children = (
-				76B78EAF1D09878600AA5488 /* YTPlayerView.h */,
-				76B78EB01D09878D00AA5488 /* YTPlayerView.m */,
 				71F8F0181D06A281009B2A80 /* AppDelegate.swift */,
+				71BB95151D0A8166003A7BC7 /* VideosPlay */,
+				71BB95141D0A8129003A7BC7 /* Maplocations */,
 				71F8F01A1D06A281009B2A80 /* ViewController.swift */,
 				71F8F0471D06C029009B2A80 /* DetailTableViewController.swift */,
 				715023761D07285C00E06006 /* DoAndDontViewController.swift */,
 				7150237A1D072BB300E06006 /* DoTableViewCell.swift */,
 				71F8F0491D06DBD6009B2A80 /* TempleHistoryViewController.swift */,
-				712DAF211D07F89300376DEB /* LocationsViewController.swift */,
 				7150236E1D06E91900E06006 /* TempleTimingsViewController.swift */,
 				715023701D06FA4500E06006 /* TempleTimingsCustomCell.swift */,
 				715023721D07095E00E06006 /* SevasViewController.swift */,
 				715023741D0709C200E06006 /* SevasCustomCell.swift */,
 				7150237C1D07404500E06006 /* PrasadasViewController.swift */,
-				76F0D0641D07F04D0062B874 /* VideosViewController.swift */,
-				767CEA571D087BBF00B56B5E /* VideosTableViewCell.swift */,
 				76B78EB41D09885A00AA5488 /* YTPlayerViewController.swift */,
 				76B78EB21D0987F600AA5488 /* Assets.bundle */,
 				71F8F01C1D06A282009B2A80 /* Main.storyboard */,
@@ -332,6 +363,8 @@
 				76B78EB31D0987F600AA5488 /* Assets.bundle in Resources */,
 				712DAF201D07DF1400376DEB /* .gitignore in Resources */,
 				71F8F0231D06A282009B2A80 /* LaunchScreen.storyboard in Resources */,
+				71D08FB51D0AC84B00291878 /* surroundings.plist in Resources */,
+				71BB95131D0A7F14003A7BC7 /* stations.plist in Resources */,
 				71F8F0201D06A282009B2A80 /* Assets.xcassets in Resources */,
 				71F8F01E1D06A282009B2A80 /* Main.storyboard in Resources */,
 			);
@@ -490,16 +523,16 @@
 				76F0D0651D07F04D0062B874 /* VideosViewController.swift in Sources */,
 				767CEA581D087BBF00B56B5E /* VideosTableViewCell.swift in Sources */,
 				715023771D07285C00E06006 /* DoAndDontViewController.swift in Sources */,
+				71BB95171D0A8E79003A7BC7 /* YadagiriAnnotation.swift in Sources */,
 				715023711D06FA4500E06006 /* TempleTimingsCustomCell.swift in Sources */,
 				7150236F1D06E91900E06006 /* TempleTimingsViewController.swift in Sources */,
 				7150237B1D072BB300E06006 /* DoTableViewCell.swift in Sources */,
 				76B78EB11D09878D00AA5488 /* YTPlayerView.m in Sources */,
 				71F8F0191D06A281009B2A80 /* AppDelegate.swift in Sources */,
-
 				76B78EB51D09885A00AA5488 /* YTPlayerViewController.swift in Sources */,
-
+				71BB95111D0A7F05003A7BC7 /* Station.swift in Sources */,
 				712DAF221D07F89300376DEB /* LocationsViewController.swift in Sources */,
-
+				71D08FB71D0AD21A00291878 /* Surroundings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
