@@ -11,19 +11,19 @@
 		2CA92401D94FFB6D115167A9 /* Pods_YadadriUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65055EE8D202877AAAC89AD7 /* Pods_YadadriUITests.framework */; };
 		35217F9E00077791E0B435B2 /* Pods_YadadriTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97E4D632FC0BFDB3B7802D13 /* Pods_YadadriTests.framework */; };
 		712DAF201D07DF1400376DEB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 712DAF1F1D07DF1400376DEB /* .gitignore */; };
-		712DAF221D07F89300376DEB /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712DAF211D07F89300376DEB /* LocationsViewController.swift */; };
 		7150236F1D06E91900E06006 /* TempleTimingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7150236E1D06E91900E06006 /* TempleTimingsViewController.swift */; };
 		715023711D06FA4500E06006 /* TempleTimingsCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715023701D06FA4500E06006 /* TempleTimingsCustomCell.swift */; };
 		715023731D07095E00E06006 /* SevasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715023721D07095E00E06006 /* SevasViewController.swift */; };
 		715023751D0709C200E06006 /* SevasCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715023741D0709C200E06006 /* SevasCustomCell.swift */; };
 		715023771D07285C00E06006 /* DoAndDontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715023761D07285C00E06006 /* DoAndDontViewController.swift */; };
 		7150237B1D072BB300E06006 /* DoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7150237A1D072BB300E06006 /* DoTableViewCell.swift */; };
-		7150237D1D07404500E06006 /* PrasadasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7150237C1D07404500E06006 /* PrasadasViewController.swift */; };
 		71BB95111D0A7F05003A7BC7 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BB95101D0A7F05003A7BC7 /* Station.swift */; };
 		71BB95131D0A7F14003A7BC7 /* stations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71BB95121D0A7F14003A7BC7 /* stations.plist */; };
 		71BB95171D0A8E79003A7BC7 /* YadagiriAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71BB95161D0A8E79003A7BC7 /* YadagiriAnnotation.swift */; };
 		71D08FB51D0AC84B00291878 /* surroundings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71D08FB41D0AC84B00291878 /* surroundings.plist */; };
 		71D08FB71D0AD21A00291878 /* Surroundings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D08FB61D0AD21A00291878 /* Surroundings.swift */; };
+		71D08FB91D0AE48100291878 /* YTPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D08FB81D0AE48100291878 /* YTPlayerViewController.swift */; };
+		71D08FBB1D0AE4BB00291878 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D08FBA1D0AE4BB00291878 /* LocationsViewController.swift */; };
 		71F8F0191D06A281009B2A80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8F0181D06A281009B2A80 /* AppDelegate.swift */; };
 		71F8F01B1D06A281009B2A80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8F01A1D06A281009B2A80 /* ViewController.swift */; };
 		71F8F01E1D06A282009B2A80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F8F01C1D06A282009B2A80 /* Main.storyboard */; };
@@ -33,10 +33,14 @@
 		71F8F0391D06A283009B2A80 /* YadadriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8F0381D06A283009B2A80 /* YadadriUITests.swift */; };
 		71F8F0481D06C029009B2A80 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8F0471D06C029009B2A80 /* DetailTableViewController.swift */; };
 		71F8F04A1D06DBD6009B2A80 /* TempleHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8F0491D06DBD6009B2A80 /* TempleHistoryViewController.swift */; };
+		765D52021D0AC38D00EFB359 /* TempleFestivals.html in Resources */ = {isa = PBXBuildFile; fileRef = 765D52011D0AC38D00EFB359 /* TempleFestivals.html */; };
+		765D52041D0AC8B800EFB359 /* TempleHistory.html in Resources */ = {isa = PBXBuildFile; fileRef = 765D52031D0AC8B800EFB359 /* TempleHistory.html */; };
+		765D52061D0AD89200EFB359 /* PrasadasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765D52051D0AD89200EFB359 /* PrasadasViewController.swift */; };
+		765D52081D0AD91C00EFB359 /* TemplePrasadas.html in Resources */ = {isa = PBXBuildFile; fileRef = 765D52071D0AD91C00EFB359 /* TemplePrasadas.html */; };
 		767CEA581D087BBF00B56B5E /* VideosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767CEA571D087BBF00B56B5E /* VideosTableViewCell.swift */; };
 		76B78EB11D09878D00AA5488 /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B78EB01D09878D00AA5488 /* YTPlayerView.m */; };
 		76B78EB31D0987F600AA5488 /* Assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 76B78EB21D0987F600AA5488 /* Assets.bundle */; };
-		76B78EB51D09885A00AA5488 /* YTPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B78EB41D09885A00AA5488 /* YTPlayerViewController.swift */; };
+		76C23AFE1D0A94E700FB7C3D /* TempleFestivalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C23AFD1D0A94E700FB7C3D /* TempleFestivalsViewController.swift */; };
 		76F0D0651D07F04D0062B874 /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F0D0641D07F04D0062B874 /* VideosViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -64,7 +68,6 @@
 		5085CBB7C034B7879124AA06 /* Pods-YadadriTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YadadriTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YadadriTests/Pods-YadadriTests.debug.xcconfig"; sourceTree = "<group>"; };
 		65055EE8D202877AAAC89AD7 /* Pods_YadadriUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YadadriUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		712DAF1F1D07DF1400376DEB /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		712DAF211D07F89300376DEB /* LocationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
 		7150236E1D06E91900E06006 /* TempleTimingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempleTimingsViewController.swift; sourceTree = "<group>"; };
 		715023701D06FA4500E06006 /* TempleTimingsCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempleTimingsCustomCell.swift; sourceTree = "<group>"; };
 		715023721D07095E00E06006 /* SevasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SevasViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +80,8 @@
 		71BB95161D0A8E79003A7BC7 /* YadagiriAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YadagiriAnnotation.swift; sourceTree = "<group>"; };
 		71D08FB41D0AC84B00291878 /* surroundings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = surroundings.plist; sourceTree = "<group>"; };
 		71D08FB61D0AD21A00291878 /* Surroundings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Surroundings.swift; sourceTree = "<group>"; };
+		71D08FB81D0AE48100291878 /* YTPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTPlayerViewController.swift; sourceTree = "<group>"; };
+		71D08FBA1D0AE4BB00291878 /* LocationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
 		71F8F0151D06A280009B2A80 /* Yadadri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yadadri.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71F8F0181D06A281009B2A80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71F8F01A1D06A281009B2A80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -92,12 +97,16 @@
 		71F8F03A1D06A283009B2A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71F8F0471D06C029009B2A80 /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
 		71F8F0491D06DBD6009B2A80 /* TempleHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempleHistoryViewController.swift; sourceTree = "<group>"; };
+		765D52011D0AC38D00EFB359 /* TempleFestivals.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TempleFestivals.html; sourceTree = "<group>"; };
+		765D52031D0AC8B800EFB359 /* TempleHistory.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TempleHistory.html; sourceTree = "<group>"; };
+		765D52051D0AD89200EFB359 /* PrasadasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrasadasViewController.swift; sourceTree = "<group>"; };
+		765D52071D0AD91C00EFB359 /* TemplePrasadas.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TemplePrasadas.html; sourceTree = "<group>"; };
 		767CEA571D087BBF00B56B5E /* VideosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosTableViewCell.swift; sourceTree = "<group>"; };
 		76B78EAB1D0970E200AA5488 /* Yadadri-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yadadri-Bridging-Header.h"; sourceTree = "<group>"; };
 		76B78EAF1D09878600AA5488 /* YTPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
 		76B78EB01D09878D00AA5488 /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
 		76B78EB21D0987F600AA5488 /* Assets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Assets.bundle; sourceTree = "<group>"; };
-		76B78EB41D09885A00AA5488 /* YTPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YTPlayerViewController.swift; sourceTree = "<group>"; };
+		76C23AFD1D0A94E700FB7C3D /* TempleFestivalsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempleFestivalsViewController.swift; sourceTree = "<group>"; };
 		76F0D0641D07F04D0062B874 /* VideosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosViewController.swift; sourceTree = "<group>"; };
 		7CBE4023E9C204E68CC3A727 /* Pods-Yadadri.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yadadri.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yadadri/Pods-Yadadri.debug.xcconfig"; sourceTree = "<group>"; };
 		7CD686FA829F73E0275FE466 /* Pods-YadadriUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YadadriUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YadadriUITests/Pods-YadadriUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -154,7 +163,7 @@
 				71D08FB61D0AD21A00291878 /* Surroundings.swift */,
 				71BB95121D0A7F14003A7BC7 /* stations.plist */,
 				71D08FB41D0AC84B00291878 /* surroundings.plist */,
-				712DAF211D07F89300376DEB /* LocationsViewController.swift */,
+				71D08FBA1D0AE4BB00291878 /* LocationsViewController.swift */,
 			);
 			name = Maplocations;
 			sourceTree = "<group>";
@@ -163,9 +172,8 @@
 			isa = PBXGroup;
 			children = (
 				76B78EAF1D09878600AA5488 /* YTPlayerView.h */,
-				76F0D0641D07F04D0062B874 /* VideosViewController.swift */,
 				76B78EB01D09878D00AA5488 /* YTPlayerView.m */,
-				767CEA571D087BBF00B56B5E /* VideosTableViewCell.swift */,
+				71D08FB81D0AE48100291878 /* YTPlayerViewController.swift */,
 			);
 			name = VideosPlay;
 			sourceTree = "<group>";
@@ -204,18 +212,24 @@
 				715023761D07285C00E06006 /* DoAndDontViewController.swift */,
 				7150237A1D072BB300E06006 /* DoTableViewCell.swift */,
 				71F8F0491D06DBD6009B2A80 /* TempleHistoryViewController.swift */,
+				765D52051D0AD89200EFB359 /* PrasadasViewController.swift */,
 				7150236E1D06E91900E06006 /* TempleTimingsViewController.swift */,
 				715023701D06FA4500E06006 /* TempleTimingsCustomCell.swift */,
 				715023721D07095E00E06006 /* SevasViewController.swift */,
 				715023741D0709C200E06006 /* SevasCustomCell.swift */,
 				7150237C1D07404500E06006 /* PrasadasViewController.swift */,
-				76B78EB41D09885A00AA5488 /* YTPlayerViewController.swift */,
+				76F0D0641D07F04D0062B874 /* VideosViewController.swift */,
+				767CEA571D087BBF00B56B5E /* VideosTableViewCell.swift */,
+				76C23AFD1D0A94E700FB7C3D /* TempleFestivalsViewController.swift */,
 				76B78EB21D0987F600AA5488 /* Assets.bundle */,
 				71F8F01C1D06A282009B2A80 /* Main.storyboard */,
 				71F8F01F1D06A282009B2A80 /* Assets.xcassets */,
 				71F8F0211D06A282009B2A80 /* LaunchScreen.storyboard */,
 				71F8F0241D06A282009B2A80 /* Info.plist */,
 				76B78EAB1D0970E200AA5488 /* Yadadri-Bridging-Header.h */,
+				765D52011D0AC38D00EFB359 /* TempleFestivals.html */,
+				765D52031D0AC8B800EFB359 /* TempleHistory.html */,
+				765D52071D0AD91C00EFB359 /* TemplePrasadas.html */,
 			);
 			path = Yadadri;
 			sourceTree = "<group>";
@@ -324,6 +338,7 @@
 				TargetAttributes = {
 					71F8F0141D06A280009B2A80 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = AX766J88NA;
 					};
 					71F8F0281D06A283009B2A80 = {
 						CreatedOnToolsVersion = 7.3;
@@ -360,11 +375,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				765D52041D0AC8B800EFB359 /* TempleHistory.html in Resources */,
 				76B78EB31D0987F600AA5488 /* Assets.bundle in Resources */,
 				712DAF201D07DF1400376DEB /* .gitignore in Resources */,
 				71F8F0231D06A282009B2A80 /* LaunchScreen.storyboard in Resources */,
 				71D08FB51D0AC84B00291878 /* surroundings.plist in Resources */,
 				71BB95131D0A7F14003A7BC7 /* stations.plist in Resources */,
+				765D52081D0AD91C00EFB359 /* TemplePrasadas.html in Resources */,
+				765D52021D0AC38D00EFB359 /* TempleFestivals.html in Resources */,
 				71F8F0201D06A282009B2A80 /* Assets.xcassets in Resources */,
 				71F8F01E1D06A282009B2A80 /* Main.storyboard in Resources */,
 			);
@@ -514,9 +532,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7150237D1D07404500E06006 /* PrasadasViewController.swift in Sources */,
 				715023731D07095E00E06006 /* SevasViewController.swift in Sources */,
 				715023751D0709C200E06006 /* SevasCustomCell.swift in Sources */,
+				765D52061D0AD89200EFB359 /* PrasadasViewController.swift in Sources */,
 				71F8F04A1D06DBD6009B2A80 /* TempleHistoryViewController.swift in Sources */,
 				71F8F0481D06C029009B2A80 /* DetailTableViewController.swift in Sources */,
 				71F8F01B1D06A281009B2A80 /* ViewController.swift in Sources */,
@@ -525,14 +543,15 @@
 				715023771D07285C00E06006 /* DoAndDontViewController.swift in Sources */,
 				71BB95171D0A8E79003A7BC7 /* YadagiriAnnotation.swift in Sources */,
 				715023711D06FA4500E06006 /* TempleTimingsCustomCell.swift in Sources */,
+				71D08FBB1D0AE4BB00291878 /* LocationsViewController.swift in Sources */,
 				7150236F1D06E91900E06006 /* TempleTimingsViewController.swift in Sources */,
 				7150237B1D072BB300E06006 /* DoTableViewCell.swift in Sources */,
 				76B78EB11D09878D00AA5488 /* YTPlayerView.m in Sources */,
 				71F8F0191D06A281009B2A80 /* AppDelegate.swift in Sources */,
-				76B78EB51D09885A00AA5488 /* YTPlayerViewController.swift in Sources */,
 				71BB95111D0A7F05003A7BC7 /* Station.swift in Sources */,
-				712DAF221D07F89300376DEB /* LocationsViewController.swift in Sources */,
 				71D08FB71D0AD21A00291878 /* Surroundings.swift in Sources */,
+				76C23AFE1D0A94E700FB7C3D /* TempleFestivalsViewController.swift in Sources */,
+				71D08FB91D0AE48100291878 /* YTPlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -676,10 +695,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Yadadri/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Yadadri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Yadadri/Yadadri-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -691,10 +713,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Yadadri/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Yadadri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Yadadri/Yadadri-Bridging-Header.h";
 			};
 			name = Release;

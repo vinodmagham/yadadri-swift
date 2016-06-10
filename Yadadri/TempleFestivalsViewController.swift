@@ -1,5 +1,5 @@
 //
-//  PrasadasViewController.swift
+//  TempleFestivalsViewController.swift
 //  Yadadri
 //
 //  Created by Kvana Inc 1 on 10/06/16.
@@ -8,35 +8,30 @@
 
 import UIKit
 
-class PrasadasViewController: UIViewController {
+class TempleFestivalsViewController: UIViewController {
 
-    @IBOutlet weak var prasadasWebView: UIWebView!
+    @IBOutlet weak var festivalWebView: UIWebView!
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         let leftsidebarbutton=UIBarButtonItem();
         leftsidebarbutton.image=UIImage(named:"backArrow")
         leftsidebarbutton.style=UIBarButtonItemStyle.Plain
         leftsidebarbutton.target=self
-        leftsidebarbutton.action=#selector(PrasadasViewController.goBack)
+        leftsidebarbutton.action=#selector(TempleFestivalsViewController.goBack)
         self.navigationItem.leftBarButtonItem=leftsidebarbutton
         self.navigationItem.leftBarButtonItem?.tintColor = UIColor .blackColor()
-        self.navigationItem.title = "Temple Prasadams"
+        self.navigationItem.title = "Festivals"
         
-        
-        
-        
-        let htmlFile = NSBundle.mainBundle().pathForResource("TemplePrasadas", ofType: "html")
+        let htmlFile = NSBundle.mainBundle().pathForResource("TempleFestivals", ofType: "html")
         let htmlString = try? String(contentsOfFile: htmlFile!, encoding: NSUTF8StringEncoding)
-        prasadasWebView.loadHTMLString(htmlString!, baseURL: nil)
-
-
-       
+        festivalWebView.loadHTMLString(htmlString!, baseURL: nil)
+      
     }
     
     func goBack() {
         self.navigationController!.popViewControllerAnimated(true)
     }
-
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

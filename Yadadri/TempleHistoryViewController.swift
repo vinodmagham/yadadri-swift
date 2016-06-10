@@ -10,6 +10,7 @@ import UIKit
 
 class TempleHistoryViewController: UIViewController {
        
+    @IBOutlet weak var historyWebView: UIWebView!
         override func viewDidLoad() {
         super.viewDidLoad()
         let leftsidebarbutton=UIBarButtonItem();
@@ -20,6 +21,11 @@ class TempleHistoryViewController: UIViewController {
         self.navigationItem.leftBarButtonItem=leftsidebarbutton
         self.navigationItem.leftBarButtonItem?.tintColor = UIColor .blackColor()
          self.navigationItem.title = "Temple History"
+            
+            let htmlFile = NSBundle.mainBundle().pathForResource("TempleHistory", ofType: "html")
+            let htmlString = try? String(contentsOfFile: htmlFile!, encoding: NSUTF8StringEncoding)
+            historyWebView.loadHTMLString(htmlString!, baseURL: nil)
+
         
     }
     
