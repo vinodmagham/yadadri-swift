@@ -41,13 +41,14 @@
                             <constraint firstAttribute="width" constant="48" id="sVa-sZ-pfX"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="BaG-vx-Ylz">
                         <rect key="frame" x="6" y="24" width="173" height="31"/>
                         <connections>
                             <action selector="musicSliderAction:" destination="KGk-i7-Jjw" eventType="valueChanged" id="e3a-7g-dDD"/>
+                            <action selector="sliderAction:" destination="KGk-i7-Jjw" eventType="valueChanged" id="mP9-he-VZB"/>
                         </connections>
                     </slider>
                 </subviews>
@@ -71,7 +72,7 @@
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <connections>
                 <outlet property="musicSlider" destination="BaG-vx-Ylz" id="rQA-Fb-wmc"/>
-                <outlet property="playButton" destination="cAt-jZ-Ecy" id="UOv-v0-ajp"/>
+                <outlet property="playButton" destination="cAt-jZ-Ecy" id="ZSg-h1-Q5y"/>
                 <outlet property="songLable" destination="MHU-H9-unO" id="U4L-WE-XMG"/>
                 <outlet property="timeLabel" destination="t4m-87-JQz" id="X1A-Zu-Flf"/>
             </connections>
