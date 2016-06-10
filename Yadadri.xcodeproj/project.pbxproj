@@ -27,6 +27,10 @@
 		71F8F0391D06A283009B2A80 /* YadadriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8F0381D06A283009B2A80 /* YadadriUITests.swift */; };
 		71F8F0481D06C029009B2A80 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8F0471D06C029009B2A80 /* DetailTableViewController.swift */; };
 		71F8F04A1D06DBD6009B2A80 /* TempleHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8F0491D06DBD6009B2A80 /* TempleHistoryViewController.swift */; };
+		765D52021D0AC38D00EFB359 /* TempleFestivals.html in Resources */ = {isa = PBXBuildFile; fileRef = 765D52011D0AC38D00EFB359 /* TempleFestivals.html */; };
+		765D52041D0AC8B800EFB359 /* TempleHistory.html in Resources */ = {isa = PBXBuildFile; fileRef = 765D52031D0AC8B800EFB359 /* TempleHistory.html */; };
+		765D52061D0AD89200EFB359 /* PrasadasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765D52051D0AD89200EFB359 /* PrasadasViewController.swift */; };
+		765D52081D0AD91C00EFB359 /* TemplePrasadas.html in Resources */ = {isa = PBXBuildFile; fileRef = 765D52071D0AD91C00EFB359 /* TemplePrasadas.html */; };
 		767CEA581D087BBF00B56B5E /* VideosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767CEA571D087BBF00B56B5E /* VideosTableViewCell.swift */; };
 		76B78EB11D09878D00AA5488 /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76B78EB01D09878D00AA5488 /* YTPlayerView.m */; };
 		76B78EB31D0987F600AA5488 /* Assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 76B78EB21D0987F600AA5488 /* Assets.bundle */; };
@@ -81,6 +85,10 @@
 		71F8F03A1D06A283009B2A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71F8F0471D06C029009B2A80 /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
 		71F8F0491D06DBD6009B2A80 /* TempleHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempleHistoryViewController.swift; sourceTree = "<group>"; };
+		765D52011D0AC38D00EFB359 /* TempleFestivals.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TempleFestivals.html; sourceTree = "<group>"; };
+		765D52031D0AC8B800EFB359 /* TempleHistory.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TempleHistory.html; sourceTree = "<group>"; };
+		765D52051D0AD89200EFB359 /* PrasadasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrasadasViewController.swift; sourceTree = "<group>"; };
+		765D52071D0AD91C00EFB359 /* TemplePrasadas.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TemplePrasadas.html; sourceTree = "<group>"; };
 		767CEA571D087BBF00B56B5E /* VideosTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosTableViewCell.swift; sourceTree = "<group>"; };
 		76B78EAB1D0970E200AA5488 /* Yadadri-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yadadri-Bridging-Header.h"; sourceTree = "<group>"; };
 		76B78EAF1D09878600AA5488 /* YTPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
@@ -170,6 +178,7 @@
 				715023761D07285C00E06006 /* DoAndDontViewController.swift */,
 				7150237A1D072BB300E06006 /* DoTableViewCell.swift */,
 				71F8F0491D06DBD6009B2A80 /* TempleHistoryViewController.swift */,
+				765D52051D0AD89200EFB359 /* PrasadasViewController.swift */,
 				712DAF211D07F89300376DEB /* LocationsViewController.swift */,
 				7150236E1D06E91900E06006 /* TempleTimingsViewController.swift */,
 				715023701D06FA4500E06006 /* TempleTimingsCustomCell.swift */,
@@ -185,6 +194,9 @@
 				71F8F0211D06A282009B2A80 /* LaunchScreen.storyboard */,
 				71F8F0241D06A282009B2A80 /* Info.plist */,
 				76B78EAB1D0970E200AA5488 /* Yadadri-Bridging-Header.h */,
+				765D52011D0AC38D00EFB359 /* TempleFestivals.html */,
+				765D52031D0AC8B800EFB359 /* TempleHistory.html */,
+				765D52071D0AD91C00EFB359 /* TemplePrasadas.html */,
 			);
 			path = Yadadri;
 			sourceTree = "<group>";
@@ -293,6 +305,7 @@
 				TargetAttributes = {
 					71F8F0141D06A280009B2A80 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = AX766J88NA;
 					};
 					71F8F0281D06A283009B2A80 = {
 						CreatedOnToolsVersion = 7.3;
@@ -329,9 +342,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				765D52041D0AC8B800EFB359 /* TempleHistory.html in Resources */,
 				76B78EB31D0987F600AA5488 /* Assets.bundle in Resources */,
 				712DAF201D07DF1400376DEB /* .gitignore in Resources */,
 				71F8F0231D06A282009B2A80 /* LaunchScreen.storyboard in Resources */,
+				765D52081D0AD91C00EFB359 /* TemplePrasadas.html in Resources */,
+				765D52021D0AC38D00EFB359 /* TempleFestivals.html in Resources */,
 				71F8F0201D06A282009B2A80 /* Assets.xcassets in Resources */,
 				71F8F01E1D06A282009B2A80 /* Main.storyboard in Resources */,
 			);
@@ -483,6 +499,7 @@
 			files = (
 				715023731D07095E00E06006 /* SevasViewController.swift in Sources */,
 				715023751D0709C200E06006 /* SevasCustomCell.swift in Sources */,
+				765D52061D0AD89200EFB359 /* PrasadasViewController.swift in Sources */,
 				71F8F04A1D06DBD6009B2A80 /* TempleHistoryViewController.swift in Sources */,
 				71F8F0481D06C029009B2A80 /* DetailTableViewController.swift in Sources */,
 				71F8F01B1D06A281009B2A80 /* ViewController.swift in Sources */,
@@ -640,10 +657,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Yadadri/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Yadadri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Yadadri/Yadadri-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -655,10 +675,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Yadadri/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Yadadri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Yadadri/Yadadri-Bridging-Header.h";
 			};
 			name = Release;

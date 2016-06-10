@@ -12,7 +12,7 @@ class DetailTableViewController: UIViewController,UITableViewDelegate,UITableVie
 
     @IBOutlet weak var detailTable: UITableView!
 
-     var tableList = ["History","Temple Timings", "Archanas & Sevas", "Do's & Dont's", "Important Temple Festivals", "Videos", "Songs","How to Reach"]
+     var tableList = ["History","Temple Timings", "Archanas & Sevas", "Do's & Dont's", "Important Temple Festivals", "Videos", "Songs","How to Reach","Prasadam's"]
 
     
     override func viewDidLoad() {
@@ -91,6 +91,13 @@ func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexP
             let timingsView : LocationsViewController = storyboard?.instantiateViewControllerWithIdentifier("LocationsViewController") as! LocationsViewController
             self.navigationController?.pushViewController(timingsView, animated: true)
 
+            
+        }
+        
+        else if(indexPath.row == 8){
+            let prasadasView : PrasadasViewController = storyboard?.instantiateViewControllerWithIdentifier("PrasadasViewController") as! PrasadasViewController
+            self.navigationController?.pushViewController(prasadasView, animated: true)
+            
             
         }
     }
