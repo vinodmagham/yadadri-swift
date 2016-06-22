@@ -12,7 +12,9 @@ class DetailTableViewController: UIViewController,UITableViewDelegate,UITableVie
 
     @IBOutlet weak var detailTable: UITableView!
 
+
      var tableList = ["History","Temple Timings", "Archanas & Sevas", "Do's & Dont's", "Important Temple Festivals", "Videos", "Songs","How to Reach","Prasadam's"]
+
 
     
     override func viewDidLoad() {
@@ -82,11 +84,14 @@ func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexP
             
         }
         else if(indexPath.row == 5){
-            
             let videosView : VideosViewController = storyboard?.instantiateViewControllerWithIdentifier("VideosViewController") as! VideosViewController
             self.navigationController?.pushViewController(videosView, animated: true)
-            
         }
+        
+        else if(indexPath.row == 6){
+            let songsView : SongaViewController = storyboard?.instantiateViewControllerWithIdentifier("SongaViewController") as! SongaViewController
+            self.navigationController?.pushViewController(songsView, animated: true)
+         }
         else if(indexPath.row == 7){
             let timingsView : LocationsViewController = storyboard?.instantiateViewControllerWithIdentifier("LocationsViewController") as! LocationsViewController
             self.navigationController?.pushViewController(timingsView, animated: true)

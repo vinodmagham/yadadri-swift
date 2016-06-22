@@ -33,6 +33,7 @@
 		71F8F0391D06A283009B2A80 /* YadadriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8F0381D06A283009B2A80 /* YadadriUITests.swift */; };
 		71F8F0481D06C029009B2A80 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8F0471D06C029009B2A80 /* DetailTableViewController.swift */; };
 		71F8F04A1D06DBD6009B2A80 /* TempleHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F8F0491D06DBD6009B2A80 /* TempleHistoryViewController.swift */; };
+
 		765D52021D0AC38D00EFB359 /* TempleFestivals.html in Resources */ = {isa = PBXBuildFile; fileRef = 765D52011D0AC38D00EFB359 /* TempleFestivals.html */; };
 		765D52041D0AC8B800EFB359 /* TempleHistory.html in Resources */ = {isa = PBXBuildFile; fileRef = 765D52031D0AC8B800EFB359 /* TempleHistory.html */; };
 		765D52061D0AD89200EFB359 /* PrasadasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765D52051D0AD89200EFB359 /* PrasadasViewController.swift */; };
@@ -42,6 +43,12 @@
 		76B78EB31D0987F600AA5488 /* Assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 76B78EB21D0987F600AA5488 /* Assets.bundle */; };
 		76C23AFE1D0A94E700FB7C3D /* TempleFestivalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C23AFD1D0A94E700FB7C3D /* TempleFestivalsViewController.swift */; };
 		76F0D0651D07F04D0062B874 /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F0D0641D07F04D0062B874 /* VideosViewController.swift */; };
+
+		D16515D61D07F287003D7A0D /* SongsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D16515D51D07F287003D7A0D /* SongsTableViewCell.xib */; };
+		D16515D81D07F2FC003D7A0D /* SongaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16515D71D07F2FC003D7A0D /* SongaViewController.swift */; };
+		D16515DA1D07F3A2003D7A0D /* SongsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16515D91D07F3A2003D7A0D /* SongsTableViewCell.swift */; };
+		D16515DC1D07FA13003D7A0D /* Sreekara Subhakara-(Mr-Jatt.com).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D16515DB1D07FA13003D7A0D /* Sreekara Subhakara-(Mr-Jatt.com).mp3 */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +104,7 @@
 		71F8F03A1D06A283009B2A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71F8F0471D06C029009B2A80 /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
 		71F8F0491D06DBD6009B2A80 /* TempleHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempleHistoryViewController.swift; sourceTree = "<group>"; };
+
 		765D52011D0AC38D00EFB359 /* TempleFestivals.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TempleFestivals.html; sourceTree = "<group>"; };
 		765D52031D0AC8B800EFB359 /* TempleHistory.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = TempleHistory.html; sourceTree = "<group>"; };
 		765D52051D0AD89200EFB359 /* PrasadasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrasadasViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +120,12 @@
 		7CD686FA829F73E0275FE466 /* Pods-YadadriUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YadadriUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YadadriUITests/Pods-YadadriUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		97E4D632FC0BFDB3B7802D13 /* Pods_YadadriTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YadadriTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D4A838CF791316D0B9AE98 /* Pods-YadadriTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YadadriTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YadadriTests/Pods-YadadriTests.release.xcconfig"; sourceTree = "<group>"; };
+
+		D16515D51D07F287003D7A0D /* SongsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SongsTableViewCell.xib; sourceTree = "<group>"; };
+		D16515D71D07F2FC003D7A0D /* SongaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongaViewController.swift; sourceTree = "<group>"; };
+		D16515D91D07F3A2003D7A0D /* SongsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongsTableViewCell.swift; sourceTree = "<group>"; };
+		D16515DB1D07FA13003D7A0D /* Sreekara Subhakara-(Mr-Jatt.com).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sreekara Subhakara-(Mr-Jatt.com).mp3"; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,10 +232,17 @@
 				715023721D07095E00E06006 /* SevasViewController.swift */,
 				715023741D0709C200E06006 /* SevasCustomCell.swift */,
 				7150237C1D07404500E06006 /* PrasadasViewController.swift */,
+
 				76F0D0641D07F04D0062B874 /* VideosViewController.swift */,
 				767CEA571D087BBF00B56B5E /* VideosTableViewCell.swift */,
 				76C23AFD1D0A94E700FB7C3D /* TempleFestivalsViewController.swift */,
 				76B78EB21D0987F600AA5488 /* Assets.bundle */,
+
+				D16515D71D07F2FC003D7A0D /* SongaViewController.swift */,
+				D16515D91D07F3A2003D7A0D /* SongsTableViewCell.swift */,
+				D16515D51D07F287003D7A0D /* SongsTableViewCell.xib */,
+				D16515DB1D07FA13003D7A0D /* Sreekara Subhakara-(Mr-Jatt.com).mp3 */,
+
 				71F8F01C1D06A282009B2A80 /* Main.storyboard */,
 				71F8F01F1D06A282009B2A80 /* Assets.xcassets */,
 				71F8F0211D06A282009B2A80 /* LaunchScreen.storyboard */,
@@ -375,8 +396,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+
 				765D52041D0AC8B800EFB359 /* TempleHistory.html in Resources */,
 				76B78EB31D0987F600AA5488 /* Assets.bundle in Resources */,
+
+				D16515DC1D07FA13003D7A0D /* Sreekara Subhakara-(Mr-Jatt.com).mp3 in Resources */,
+
 				712DAF201D07DF1400376DEB /* .gitignore in Resources */,
 				71F8F0231D06A282009B2A80 /* LaunchScreen.storyboard in Resources */,
 				71D08FB51D0AC84B00291878 /* surroundings.plist in Resources */,
@@ -385,6 +410,7 @@
 				765D52021D0AC38D00EFB359 /* TempleFestivals.html in Resources */,
 				71F8F0201D06A282009B2A80 /* Assets.xcassets in Resources */,
 				71F8F01E1D06A282009B2A80 /* Main.storyboard in Resources */,
+				D16515D61D07F287003D7A0D /* SongsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,10 +567,15 @@
 				76F0D0651D07F04D0062B874 /* VideosViewController.swift in Sources */,
 				767CEA581D087BBF00B56B5E /* VideosTableViewCell.swift in Sources */,
 				715023771D07285C00E06006 /* DoAndDontViewController.swift in Sources */,
+
 				71BB95171D0A8E79003A7BC7 /* YadagiriAnnotation.swift in Sources */,
+
+				D16515D81D07F2FC003D7A0D /* SongaViewController.swift in Sources */,
+
 				715023711D06FA4500E06006 /* TempleTimingsCustomCell.swift in Sources */,
 				71D08FBB1D0AE4BB00291878 /* LocationsViewController.swift in Sources */,
 				7150236F1D06E91900E06006 /* TempleTimingsViewController.swift in Sources */,
+				D16515DA1D07F3A2003D7A0D /* SongsTableViewCell.swift in Sources */,
 				7150237B1D072BB300E06006 /* DoTableViewCell.swift in Sources */,
 				76B78EB11D09878D00AA5488 /* YTPlayerView.m in Sources */,
 				71F8F0191D06A281009B2A80 /* AppDelegate.swift in Sources */,
